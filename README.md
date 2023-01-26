@@ -14,7 +14,7 @@ To run type: `./runsim [num_proc]` or the equivalent `mpiexec -np [num_proc] nrn
 
 On Cori, 
 Use salloc command to specify the shifter image and haswell compute resource: 
-`salloc -N 1 --image=balewski/ubu20-neuron8:v5 -C haswell -q interactive -t 4:00:00`
+`salloc --nodes=1 --ntasks=4 --mem=8G -C haswell -q interactive --time=4:00:00`
 
 Use srun command to run the parallel process:
 `srun -k -n 4 /global/homes/k/kpkaur28/.local/bin/nrniv shifter -python3 -mpi init.py`
