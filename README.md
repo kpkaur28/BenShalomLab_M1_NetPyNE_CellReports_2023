@@ -1,11 +1,29 @@
-# M1_NetPyNE_CellReports_2023_BenShalomLab
+## M1_NetPyNE_CellReports_2023_BenShalomLab
 
-# Setup 
+- [Setup] (#Setup)
+- [Installing NetPyNE on the Cori] (#Installing NetPyNE on Cori)
+- [Installation Issues] (#Installation Issues]
 
+### Setup 
+
+Requires NEURON with Python and MPI support.
+
+From /sim run `nrnivmodl ../mod`. This should create a directory called x86_64.
+Then, to compile the mod files, from /sim run `nrnivmodl mod`
+To run type: `./runsim [num_proc]` or the equivalent `mpiexec -np [num_proc] nrniv -python -mpi init.py`
+
+On Cori, 
+Use salloc command to specify the shifter image and haswell compute resource: 
+`salloc -N 1 --image=balewski/ubu20-neuron8:v5 -C haswell -q interactive -t 4:00:00`
+
+Use srun command to run the parallel process:
+`srun -k -n 4 /global/homes/k/kpkaur28/.local/bin/nrniv shifter -python3 -mpi init.py`
 
 -----------------------------------------
 
-### Installing NetPyNE on the Cori supercomputer system at the National Energy Research Scientific Computing Center (NERSC) can be done using the following steps:
+### Installing NetPyNE on Cori
+
+Installing NetPyNE on the Cori supercomputer system at the National Energy Research Scientific Computing Center (NERSC) can be done using the following steps:
 
 1. Load the necessary modules: You will need to load the Python and NEURON modules on Cori. You can do this by running the following command:
 `module load python/3.7-anaconda-2019.10`
@@ -34,7 +52,7 @@ If there is no error message, it means the package has been successfully install
 To deactivate the virtual environment, use:
 `conda deactivate`
 
-### Suggested fixes for any issues faced in installation
+### Installation Issues
 
 If the specific version of python is not available on the system, then try loading a different version of Python that is available on the system. You can check the available versions of Python by running the command:
 `module avail python`
