@@ -17,7 +17,7 @@ Use salloc command to specify the shifter image and haswell compute resource:
 `salloc --nodes=1 --ntasks=4 --mem=8G -C haswell -q interactive --time=4:00:00`
 
 Use srun command to run the parallel process:
-`srun -k -n 4 /global/homes/k/kpkaur28/.local/bin/nrniv shifter -python3 -mpi init.py`
+`srun -k -n 4 nrniv -python3 -mpi init.py`
 
 -----------------------------------------
 
