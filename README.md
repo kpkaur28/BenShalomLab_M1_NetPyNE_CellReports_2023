@@ -13,11 +13,21 @@ Then, to compile the mod files, from /sim run `nrnivmodl mod`
 To run type: `./runsim [num_proc]` or the equivalent `mpiexec -np [num_proc] nrniv -python -mpi init.py`
 
 On Cori, 
-Use salloc command to specify the shifter image and haswell compute resource: 
+
+1. Use salloc command to specify haswell compute resource: 
 `salloc --nodes=1 --ntasks=4 --mem=8G -C haswell -q interactive --time=4:00:00`
 
-Use srun command to run the parallel process:
+2. Create a new virtual environment: 
+`conda create --name netpyne python=3.7`
+
+4. Activate the virtual environment:
+`conda activate netpyne`
+
+4. Use srun command to run the parallel process:
 `srun -k -n 4 nrniv -python3 -mpi init.py`
+
+5. After done running, deactivate the virtual environment: 
+`conda deactivate netpyne`
 
 -----------------------------------------
 
