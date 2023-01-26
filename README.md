@@ -26,7 +26,7 @@ Use srun command to run the parallel process:
 Installing NetPyNE on the Cori supercomputer system at the National Energy Research Scientific Computing Center (NERSC) can be done using the following steps:
 
 1. Load the necessary modules: You will need to load the Python and NEURON modules on Cori. You can do this by running the following command:
-`module load python/3.7-anaconda-2019.10`
+`module load python/3.7-anaconda-2019.07`
 `module load neuron/7.7-anaconda-2019.10`
 
 2. Create a virtual environment: It is recommended that you create a virtual environment for your NetPyNE installation. You can do this by running the following command:
