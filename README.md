@@ -80,7 +80,7 @@ Another solution is to check if the version you are trying to load is deprecated
 
 If you are still unable to load the correct version of Python, or if you are unsure which version to use, you should contact the Cori support team for further assistance.
 
-Current Status: 
+### Current Status: 
 
 `srun -k -n 4 nrniv -python -mpi init.py` command returning 0's
 <img width="1257" alt="Screenshot 2023-01-30 at 1 10 48 PM" src="https://user-images.githubusercontent.com/35642755/215595990-89fa264a-a5ca-4aba-bdbf-6307baece985.png">
