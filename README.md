@@ -15,7 +15,7 @@ To run type: `./runsim [num_proc]` or the equivalent `mpiexec -np [num_proc] nrn
 On Cori, 
 
 1. Use salloc command to specify haswell compute resource: 
-`salloc --nodes=1 --ntasks=4 --mem=8G -C haswell -q interactive --time=4:00:00`
+`salloc --nodes=1 --ntasks=4 -C haswell -q interactive --time=4:00:00`
 
 2. Create a new virtual environment: 
 `conda create --name netpyne python=3.7`
