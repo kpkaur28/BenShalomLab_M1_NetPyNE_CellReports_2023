@@ -17,16 +17,19 @@ On Cori,
 1. Use salloc command to specify haswell compute resource: 
 `salloc --nodes=1 --ntasks=4 -C haswell -q interactive --time=4:00:00`
 
-2. Create a new virtual environment: 
+2. Activate python: 
+`module load python`
+
+3. Create a new virtual environment: 
 `conda create --name netpyne python=3.7`
 
 4. Activate the virtual environment:
 `conda activate netpyne`
 
-4. Use srun command to run the parallel process:
+5. Use srun command to run the parallel process:
 `srun -k -n 4 nrniv -python -mpi init.py`
 
-5. After done running, deactivate the virtual environment: 
+6. After done running, deactivate the virtual environment: 
 `conda deactivate netpyne`
 
 -----------------------------------------
