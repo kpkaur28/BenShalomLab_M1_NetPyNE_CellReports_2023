@@ -24,7 +24,7 @@ On Cori,
 `conda activate netpyne`
 
 4. Use srun command to run the parallel process:
-`srun -k -n 4 nrniv -python3 -mpi init.py`
+`srun -k -n 4 nrniv -python -mpi init.py`
 
 5. After done running, deactivate the virtual environment: 
 `conda deactivate netpyne`
