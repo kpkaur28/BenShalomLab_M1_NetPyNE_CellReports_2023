@@ -26,6 +26,10 @@ On Cori,
 4. Activate the virtual environment:
 `conda activate netpyne`
 
+5. Make sure to compile the mod files:
+Navigate to the `sim` directory, then run
+`nrnivmodl mod`
+
 5. Use srun command to run the parallel process:
 `srun -k -n 4 nrniv -python -mpi init.py`
 
