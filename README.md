@@ -68,6 +68,8 @@ If there is no error message, it means the package has been successfully install
 To deactivate the virtual environment, use:
 `conda deactivate`
 
+-----------------------------------------
+
 ### Installation Issues
 
 If the specific version of python is not available on the system, then try loading a different version of Python that is available on the system. You can check the available versions of Python by running the command:
@@ -79,6 +81,18 @@ This will list all the available versions of Python that you can load on the Cor
 Another solution is to check if the version you are trying to load is deprecated or not available in the new version of Cori, maybe you need to use a different version of python that fits the Cori version you are using.
 
 If you are still unable to load the correct version of Python, or if you are unsure which version to use, you should contact the Cori support team for further assistance.
+
+-----------------------------------------
+
+### Issuing automated batch Commands
+
+`sqs` - list the jobs submitted to Cori
+ `squeue --user=$USER` to list all jobs queued for the user
+ 
+ To issue an sbatch command, first write a sbatch script. For this project, we are using the script.sbatch
+ Run `sbatch script.sbatch`
+
+-----------------------------------------
 
 ### Current Status: 
 
