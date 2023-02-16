@@ -19,7 +19,7 @@ On Cori,
 Use this environment to run interactive sessions for short time.
 
 To run the model, use the following command to submit a batch job: 
-`sbatch script_cori.sbatch`
+`sbatch script.sbatch`
 
 2. Activate python: 
 `module load python`
@@ -37,8 +37,8 @@ This will compile the .c files and create the directory based on the architectur
 Make sure to compile the newly generated mod files by running the command:
 `nrnivmodl mod`
 
-5. Use srun command to run the parallel process:
-`srun -k -n 4 nrniv -python -mpi init.py`
+5. Use srun command to run the parallel process on 64 processors:
+`srun -k -n 64 nrniv -python -mpi init.py`
 
 6. After done running, deactivate the virtual environment: 
 `conda deactivate netpyne`
@@ -103,7 +103,7 @@ If you are still unable to load the correct version of Python, or if you are uns
 
 ### Current Status: 
 
-`srun -k -n 4 nrniv -python -mpi init.py` command returning 0's
+`srun -n 64 nrniv -python -mpi init.py` command returning 0's
 <img width="1257" alt="Screenshot 2023-01-30 at 1 10 48 PM" src="https://user-images.githubusercontent.com/35642755/215595990-89fa264a-a5ca-4aba-bdbf-6307baece985.png">
 
 
