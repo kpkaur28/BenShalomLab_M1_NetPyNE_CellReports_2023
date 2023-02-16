@@ -32,6 +32,9 @@ To run the model, use the following command to submit a batch job:
 
 5. Make sure to compile the mod files:
 Navigate to the `sim` directory, then run
+`nrnivmodl mod` 
+This will compile the .c files and create the directory based on the architecture.
+Make sure to compile the newly generated mod files by running the command:
 `nrnivmodl mod`
 
 5. Use srun command to run the parallel process:
