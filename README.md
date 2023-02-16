@@ -14,8 +14,12 @@ To run type: `./runsim [num_proc]` or the equivalent `mpiexec -np [num_proc] nrn
 
 On Cori, 
 
-1. Use salloc command to specify haswell compute resource: 
+1. Interative node: Use salloc command to specify haswell compute resource to run for interactive node: 
 `salloc --nodes=1 --ntasks=4 -C haswell -q interactive --time=4:00:00`
+Use this environment to run interactive sessions for short time.
+
+To run the model, use the following command to submit a batch job: 
+`sbatch script_cori.sbatch`
 
 2. Activate python: 
 `module load python`
