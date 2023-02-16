@@ -6,8 +6,8 @@
 #SBATCH --partition=regular
 #SBATCH -C haswell
 #SBATCH --account m2043
-#SBATCH -e /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_error.err
-#SBATCH -o /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_output.log
+#SBATCH -e /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_error1.err
+#SBATCH -o /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_output1.log
 #SBATCH --mail-type=BEGIN,END
 #SBATCH --mail-user=kaykaur@ucdavis.edu
 
@@ -23,13 +23,12 @@ conda activate netpyne
 
 # run the srun command with mpi
 cd /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/sim
+
+#wrapper
 export LD_LIBRARY_PATH=/opt/cray/pe/mpt/7.7.19/gni/mpich-INTEL/16.0/lib/pkgconfig:/opt/cray/pe/mpt/7.7.19/gni/mpich-intel/16.0/lib:$LD_LIBRARY_PATH
 
 # compile mod files
 nrnivmodl mod
-
-# mpiexec equivalent command
-#srun nrniv -python -mpi init.py
 
 # mpiexec equivalent command
 srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py
