@@ -6,8 +6,6 @@
 #SBATCH --partition=regular
 #SBATCH -C haswell
 #SBATCH --account m2043
-#SBATCH -e /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_error1.err
-#SBATCH -o /global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/log_output1.log
 #SBATCH --mail-type=BEGIN,END
 #SBATCH --mail-user=kaykaur@ucdavis.edu
 

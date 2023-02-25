@@ -1,0 +1,651 @@
+/global/homes/k/kpkaur28/M1_NetPyNE_CellReports_2023/sim
+Mod files: "mod/mod/ar_traub.mod" "mod/mod/cadad.mod" "mod/mod/cadyn.mod" "mod/mod/cagk.mod" "mod/mod/cal_mh.mod" "mod/mod/cal_mig.mod" "mod/mod/cancr.mod" "mod/mod/canin.mod" "mod/mod/can_mig.mod" "mod/mod/catcb.mod" "mod/mod/cat_mig.mod" "mod/mod/cat_traub.mod" "mod/mod/ch_CavL.mod" "mod/mod/ch_CavN.mod" "mod/mod/ch_KCaS.mod" "mod/mod/ch_Kdrfastngf.mod" "mod/mod/ch_KvAngf.mod" "mod/mod/ch_KvCaB.mod" "mod/mod/ch_leak.mod" "mod/mod/ch_Navngf.mod" "mod/mod/dipole.mod" "mod/mod/dipole_pp.mod" "mod/mod/gabab.mod" "mod/mod/h_BS.mod" "mod/mod/HCN1.mod" "mod/mod/h_harnett.mod" "mod/mod/hin.mod" "mod/mod/h_kole.mod" "mod/mod/h_migliore.mod" "mod/mod/ican_sidi.mod" "mod/mod/iccr.mod" "mod/mod/IC.mod" "mod/mod/iconc_Ca.mod" "mod/mod/ikscr.mod" "mod/mod/IKsin.mod" "mod/mod/kap_BS.mod" "mod/mod/kapcb.mod" "mod/mod/kapin.mod" "mod/mod/kBK.mod" "mod/mod/kca.mod" "mod/mod/kctin.mod" "mod/mod/kdmc_BS.mod" "mod/mod/kdr_BS.mod" "mod/mod/kdrcr.mod" "mod/mod/kdrin.mod" "mod/mod/km.mod" "mod/mod/kv.mod" "mod/mod/MyExp2SynBB.mod" "mod/mod/my_exp2syn.mod" "mod/mod/MyExp2SynNMDABB.mod" "mod/mod/nafcr.mod" "mod/mod/nafx.mod" "mod/mod/nap_sidi.mod" "mod/mod/nax_BS.mod" "mod/mod/naz.mod" "mod/mod/Nca.mod" "mod/mod/savedist.mod" "mod/mod/vecstim.mod"
+
+ -> [32mCompiling[0m mod_func.cpp
+ => [32mLINKING[0m shared library ./libnrnmech.so
+Successfully created x86_64/special
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+numprocs=64
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 47: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 47: 135170 
+  Number of synaptic contacts on node 47: 546091 
+  Number of stims on node 47: 0 
+Recording 0 traces of 0 types on node 47
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 43: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 43: 137132 
+  Number of synaptic contacts on node 43: 560931 
+  Number of stims on node 43: 0 
+Recording 0 traces of 0 types on node 43
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 52: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 52: 137062 
+  Number of synaptic contacts on node 52: 557709 
+  Number of stims on node 52: 0 
+Recording 0 traces of 0 types on node 52
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 57: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 57: 135686 
+  Number of synaptic contacts on node 57: 547839 
+  Number of stims on node 57: 0 
+Recording 0 traces of 0 types on node 57
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 60: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 60: 135750 
+  Number of synaptic contacts on node 60: 544277 
+  Number of stims on node 60: 0 
+Recording 0 traces of 0 types on node 60
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 1: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 1: 137294 
+  Number of synaptic contacts on node 1: 563282 
+  Number of stims on node 1: 0 
+Recording 0 traces of 0 types on node 1
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 3: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 3: 136421 
+  Number of synaptic contacts on node 3: 547293 
+  Number of stims on node 3: 0 
+Recording 0 traces of 0 types on node 3
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 4: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 4: 138711 
+  Number of synaptic contacts on node 4: 571614 
+  Number of stims on node 4: 0 
+Recording 0 traces of 0 types on node 4
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 5: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 5: 138114 
+  Number of synaptic contacts on node 5: 562324 
+  Number of stims on node 5: 0 
+Recording 0 traces of 0 types on node 5
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 7: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 7: 137561 
+  Number of synaptic contacts on node 7: 553684 
+  Number of stims on node 7: 0 
+Recording 0 traces of 0 types on node 7
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 8: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 8: 137486 
+  Number of synaptic contacts on node 8: 551893 
+  Number of stims on node 8: 0 
+Recording 0 traces of 0 types on node 8
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 10: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 10: 138690 
+  Number of synaptic contacts on node 10: 566894 
+  Number of stims on node 10: 0 
+Recording 0 traces of 0 types on node 10
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 12: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 12: 139088 
+  Number of synaptic contacts on node 12: 568892 
+  Number of stims on node 12: 0 
+Recording 0 traces of 0 types on node 12
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 13: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 13: 136231 
+  Number of synaptic contacts on node 13: 559922 
+  Number of stims on node 13: 0 
+Recording 0 traces of 0 types on node 13
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 14: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 14: 140648 
+  Number of synaptic contacts on node 14: 582258 
+  Number of stims on node 14: 0 
+Recording 0 traces of 0 types on node 14
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 16: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 16: 137274 
+  Number of synaptic contacts on node 16: 566569 
+  Number of stims on node 16: 0 
+Recording 0 traces of 0 types on node 16
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 17: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 17: 139711 
+  Number of synaptic contacts on node 17: 578533 
+  Number of stims on node 17: 0 
+Recording 0 traces of 0 types on node 17
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 18: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 18: 138842 
+  Number of synaptic contacts on node 18: 569207 
+  Number of stims on node 18: 0 
+Recording 0 traces of 0 types on node 18
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 19: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 19: 139102 
+  Number of synaptic contacts on node 19: 567973 
+  Number of stims on node 19: 0 
+Recording 0 traces of 0 types on node 19
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 21: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 21: 139010 
+  Number of synaptic contacts on node 21: 576643 
+  Number of stims on node 21: 0 
+Recording 0 traces of 0 types on node 21
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 22: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 22: 138571 
+  Number of synaptic contacts on node 22: 569488 
+  Number of stims on node 22: 0 
+Recording 0 traces of 0 types on node 22
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 30: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 30: 136983 
+  Number of synaptic contacts on node 30: 555518 
+  Number of stims on node 30: 0 
+Recording 0 traces of 0 types on node 30
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 31: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 31: 135380 
+  Number of synaptic contacts on node 31: 550657 
+  Number of stims on node 31: 0 
+Recording 0 traces of 0 types on node 31
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 32: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 32: 139652 
+  Number of synaptic contacts on node 32: 584038 
+  Number of stims on node 32: 0 
+Recording 0 traces of 0 types on node 32
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 33: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 33: 138627 
+  Number of synaptic contacts on node 33: 573801 
+  Number of stims on node 33: 0 
+Recording 0 traces of 0 types on node 33
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 34: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 34: 138615 
+  Number of synaptic contacts on node 34: 575276 
+  Number of stims on node 34: 0 
+Recording 0 traces of 0 types on node 34
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 35: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 35: 136222 
+  Number of synaptic contacts on node 35: 554639 
+  Number of stims on node 35: 0 
+Recording 0 traces of 0 types on node 35
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 36: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 36: 136270 
+  Number of synaptic contacts on node 36: 559161 
+  Number of stims on node 36: 0 
+Recording 0 traces of 0 types on node 36
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 37: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 37: 134711 
+  Number of synaptic contacts on node 37: 539685 
+  Number of stims on node 37: 0 
+Recording 0 traces of 0 types on node 37
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 39: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 39: 137545 
+  Number of synaptic contacts on node 39: 552903 
+  Number of stims on node 39: 0 
+Recording 0 traces of 0 types on node 39
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 40: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 40: 138589 
+  Number of synaptic contacts on node 40: 574507 
+  Number of stims on node 40: 0 
+Recording 0 traces of 0 types on node 40
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 41: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 41: 138643 
+  Number of synaptic contacts on node 41: 567557 
+  Number of stims on node 41: 0 
+Recording 0 traces of 0 types on node 41
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 42: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 42: 137554 
+  Number of synaptic contacts on node 42: 556385 
+  Number of stims on node 42: 0 
+Recording 0 traces of 0 types on node 42
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 45: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 45: 138586 
+  Number of synaptic contacts on node 45: 571425 
+  Number of stims on node 45: 0 
+Recording 0 traces of 0 types on node 45
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 46: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 46: 137019 
+  Number of synaptic contacts on node 46: 557057 
+  Number of stims on node 46: 0 
+Recording 0 traces of 0 types on node 46
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 48: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 48: 137203 
+  Number of synaptic contacts on node 48: 561374 
+  Number of stims on node 48: 0 
+Recording 0 traces of 0 types on node 48
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 49: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 49: 137133 
+  Number of synaptic contacts on node 49: 555923 
+  Number of stims on node 49: 0 
+Recording 0 traces of 0 types on node 49
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 53: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 53: 135904 
+  Number of synaptic contacts on node 53: 542538 
+  Number of stims on node 53: 0 
+Recording 0 traces of 0 types on node 53
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 56: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 56: 134525 
+  Number of synaptic contacts on node 56: 536413 
+  Number of stims on node 56: 0 
+Recording 0 traces of 0 types on node 56
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 59: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 59: 136680 
+  Number of synaptic contacts on node 59: 551321 
+  Number of stims on node 59: 0 
+Recording 0 traces of 0 types on node 59
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 61: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 61: 138036 
+  Number of synaptic contacts on node 61: 561730 
+  Number of stims on node 61: 0 
+Recording 0 traces of 0 types on node 61
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 63: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 63: 135798 
+  Number of synaptic contacts on node 63: 547316 
+  Number of stims on node 63: 0 
+Recording 0 traces of 0 types on node 63
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 2: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 2: 138118 
+  Number of synaptic contacts on node 2: 560710 
+  Number of stims on node 2: 0 
+Recording 0 traces of 0 types on node 2
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 6: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 6: 138513 
+  Number of synaptic contacts on node 6: 566486 
+  Number of stims on node 6: 0 
+Recording 0 traces of 0 types on node 6
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 9: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 9: 138333 
+  Number of synaptic contacts on node 9: 557869 
+  Number of stims on node 9: 0 
+Recording 0 traces of 0 types on node 9
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 11: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 11: 139061 
+  Number of synaptic contacts on node 11: 575007 
+  Number of stims on node 11: 0 
+Recording 0 traces of 0 types on node 11
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 15: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 15: 137800 
+  Number of synaptic contacts on node 15: 563554 
+  Number of stims on node 15: 0 
+Recording 0 traces of 0 types on node 15
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 20: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 20: 138480 
+  Number of synaptic contacts on node 20: 574718 
+  Number of stims on node 20: 0 
+Recording 0 traces of 0 types on node 20
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 23: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 23: 138693 
+  Number of synaptic contacts on node 23: 573795 
+  Number of stims on node 23: 0 
+Recording 0 traces of 0 types on node 23
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 24: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 24: 138074 
+  Number of synaptic contacts on node 24: 555455 
+  Number of stims on node 24: 0 
+Recording 0 traces of 0 types on node 24
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 25: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 25: 136832 
+  Number of synaptic contacts on node 25: 556259 
+  Number of stims on node 25: 0 
+Recording 0 traces of 0 types on node 25
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 26: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 26: 137364 
+  Number of synaptic contacts on node 26: 558444 
+  Number of stims on node 26: 0 
+Recording 0 traces of 0 types on node 26
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 27: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 27: 138101 
+  Number of synaptic contacts on node 27: 570483 
+  Number of stims on node 27: 0 
+Recording 0 traces of 0 types on node 27
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 28: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 28: 138337 
+  Number of synaptic contacts on node 28: 566890 
+  Number of stims on node 28: 0 
+Recording 0 traces of 0 types on node 28
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 29: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 29: 138526 
+  Number of synaptic contacts on node 29: 574997 
+  Number of stims on node 29: 0 
+Recording 0 traces of 0 types on node 29
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 38: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 38: 138423 
+  Number of synaptic contacts on node 38: 570011 
+  Number of stims on node 38: 0 
+Recording 0 traces of 0 types on node 38
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 44: 267 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 44: 137800 
+  Number of synaptic contacts on node 44: 557409 
+  Number of stims on node 44: 0 
+Recording 0 traces of 0 types on node 44
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 50: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 50: 136674 
+  Number of synaptic contacts on node 50: 565031 
+  Number of stims on node 50: 0 
+Recording 0 traces of 0 types on node 50
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 51: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 51: 137109 
+  Number of synaptic contacts on node 51: 564461 
+  Number of stims on node 51: 0 
+Recording 0 traces of 0 types on node 51
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 54: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 54: 138614 
+  Number of synaptic contacts on node 54: 563625 
+  Number of stims on node 54: 0 
+Recording 0 traces of 0 types on node 54
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 55: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 55: 135443 
+  Number of synaptic contacts on node 55: 546516 
+  Number of stims on node 55: 0 
+Recording 0 traces of 0 types on node 55
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 58: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 58: 136419 
+  Number of synaptic contacts on node 58: 561745 
+  Number of stims on node 58: 0 
+Recording 0 traces of 0 types on node 58
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+  Number of cells on node 62: 266 
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 62: 136670 
+  Number of synaptic contacts on node 62: 554772 
+  Number of stims on node 62: 0 
+Recording 0 traces of 0 types on node 62
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+
+Start time:  2023-02-16 18:25:28.679462
+
+Creating network of 22 cell populations on 64 hosts...
+  Number of cells on node 0: 267 
+  Done; cell creation time = 9.56 s.
+Making connections...
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 0: 136813 
+  Number of synaptic contacts on node 0: 550197 
+  Done; cell connection time = 706.80 s.
+  Number of stims on node 0: 0 
+  Done; cell stims creation time = 0.00 s.
+Recording 0 traces of 0 types on node 0
+0.0s
+
+Running simulation using NEURON for 1000.0 ms...
+0.1s
+0.2s
+0.3s
+0.4s
+0.5s
+0.6s
+0.7s
+0.8s
+0.9s
+1.0s
+  Done; run time = 18521.39 s; real-time ratio: 0.00.
+
+Gathering data...
+  Done; gather time = 5.60 s.
+
+Analyzing...
+  Cells: 17073
+  Connections: 0 (0.00 per cell)
+  Spikes: 47184 (2.76 Hz)
+  Simulated time: 1.0 s; 64 workers
+  Run time: 18521.39 s
+   IT2 : 0.000 Hz
+   SOM2 : 0.000 Hz
+   PV2 : 0.000 Hz
+   IT4 : 0.000 Hz
+   IT5A : 0.000 Hz
+   SOM5A : 0.000 Hz
+   PV5A : 0.000 Hz
+   IT5B : 0.000 Hz
+   PT5B : 0.000 Hz
+   SOM5B : 0.000 Hz
+   PV5B : 0.000 Hz
+   IT6 : 0.000 Hz
+   CT6 : 0.000 Hz
+   SOM6 : 0.000 Hz
+   PV6 : 0.000 Hz
+   TPO : 0.000 Hz
+   TVL : 0.000 Hz
+   S1 : 0.000 Hz
+   S2 : 0.000 Hz
+   cM1 : 0.000 Hz
+   M2 : 0.000 Hz
+   OC : 0.000 Hz
+Saving output as ../data/v56_manualTune/v56_tune3_data.pkl ... 
+Finished saving!
+  Done; saving time = 4.42 s.
+Preparing spike data...
+Plotting raster...
+Preparing LFP data...
+Plotting LFP time series...
+  There was an exception in plotLFPTimeSeries(): 
+    zero-size array to reduction operation maximum which has no identity 
+    (<class 'ValueError'>, ValueError('zero-size array to reduction operation maximum which has no identity'), <traceback object at 0x1554e8371a50>)
+Plotting recorded cell traces ... trace
+  Done; plotting time = 20.12 s
+
+Total time = 19268.85 s
