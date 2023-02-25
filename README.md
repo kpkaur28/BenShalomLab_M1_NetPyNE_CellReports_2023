@@ -103,8 +103,8 @@ If you are still unable to load the correct version of Python, or if you are uns
 
 ### Current Status: 
 
-`srun -n 64 nrniv -python -mpi init.py` command returning 0's
-<img width="1257" alt="Screenshot 2023-01-30 at 1 10 48 PM" src="https://user-images.githubusercontent.com/35642755/215595990-89fa264a-a5ca-4aba-bdbf-6307baece985.png">
+`srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py` command returning 0's as part of Neuron package.
+Debugging simulation run.
 
 
 
