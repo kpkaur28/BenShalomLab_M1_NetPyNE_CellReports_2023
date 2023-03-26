@@ -1,3 +1,10 @@
+The above code is authored by Salvador.
+Github Repository Link: https://github.com/suny-downstate-medical-center/M1_NetPyNE_CellReports_2023
+Author: salvadordura@gmail.com
+
+The above model is described in the following paper:
+Dura-Bernal S, Neymotin SA, Suter BA, Dacre J, Moreira JVS, Urdapilleta E, Schiemann J, Duguid I, Shepherd GMG, Lytton WW. Multiscale model of primary motor cortex circuits predicts in vivo cell type-specific, behavioral state-dependent dynamics. BioRxiv 2022.02.03.479040; doi: https://doi.org/10.1101/2022.02.03.479040. (Under review in Cell Reports)
+
 ## M1_NetPyNE_CellReports_2023_BenShalomLab
 
 - [Setup] (#Setup)
