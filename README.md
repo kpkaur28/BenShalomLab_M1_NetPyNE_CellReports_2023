@@ -1,6 +1,7 @@
 ## Motivation
 
 The original code is authored by Salvador: salvadordura@gmail.com
+
 Github Repository Link: https://github.com/suny-downstate-medical-center/M1_NetPyNE_CellReports_2023
 
 The M1 model (Mouse Primary Cortex Model) is described in the following paper:
