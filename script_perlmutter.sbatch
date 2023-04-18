@@ -15,13 +15,15 @@
 # module load PrgEnv-gnu
 
 # run the srun command with mpi
-cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+# cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+cd /global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
 
 # compile mod files
 nrnivmodl mod
 
 # run the srun command with mpi
-cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+# cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+cd /global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
 
 # mpiexec equivalent command
 # srun --mpi=pmi2 -n 64 -c 4 nrniv -python -mpi init.py
