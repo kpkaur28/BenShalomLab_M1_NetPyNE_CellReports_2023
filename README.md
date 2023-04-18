@@ -49,7 +49,7 @@ Make sure to compile the newly generated mod files by running the command:
 `nrnivmodl mod`
 
 5. Use srun command to run the parallel process on 64 processors:
-`srun -k -n 64 nrniv -python -mpi init.py`
+`srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py`
 
 6. After done running, deactivate the virtual environment: 
 `conda deactivate netpyne`
@@ -114,8 +114,30 @@ If you are still unable to load the correct version of Python, or if you are uns
 
 ### Current Status: 
 
-`srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py` command returning 0's as part of Neuron package.
-Debugging simulation run.
+Building shifter image using Docker on your laptop.
+Pull the shifter image on Cori/Perlmutter: 
+`shifterimg pull kpkaur28/neuron:v3`
 
+Allocate a node: 
+`salloc -N 2 -t 5 -C haswell -q interactive --image=kpkaur28/neuron:v3`
+
+Check if MPI is working:
+`srun -n 2 shifter python3 -m mpi4py.bench helloworld`
+
+Output:
+Hello, World! I am process 0 of 2 on nid001037
+Hello, World! I am process 1 of 2 on nid001041
+
+Check if Neuron and Netpyne are installed on the image. To list all the python packages installed on image, 
+`shifter`
+$ pip freeze list >> shifter.yml`
+
+This will give a list of Python packages installed in the shifter image.
+
+-----------------------------------------
+
+
+
+-----------------------------------------
 
 
