@@ -21,11 +21,8 @@ module load PrgEnv-gnu
 # run the srun command with mpi
 cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
 
-#set library path
-export LD_LIBRARY_PATH=/opt/cray/pe/mpich/default/ofi/gnu/9.1/lib:/opt/cray/pe/mpich/default/gtl/lib:$LD_LIBRARY_PATH
-
 # compile mod files
-# nrnivmodl mod
+nrnivmodl mod
 
 # run the srun command with mpi
 cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
@@ -33,10 +30,10 @@ cd /global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_202
 # mpiexec equivalent command
 # srun --mpi=pmi2 -n 64 -c 4 nrniv -python -mpi init.py
 
-#using shifter image
-# salloc -N 1 --image=kpkaur28/neuron:v3 -t 30 -C cpu -q interactive  #works
+# using shifter image
+# salloc -N 4 --image=kpkaur28/neuron:v3 -t 30 -C cpu -q interactive  #works
 # srun -n 2 shifter python3 -m mpi4py.bench helloworld # works
-# srun -n 64 -c 4 shifter nrniv -python3 -mpi init.py  #standard way to use shifter
+srun -n 64 -c 4 shifter nrniv -python -mpi init.py  #standard way to use shifter
 
 # srun -n 1 -c 4 nrniv shifter -python3 -mpi init.py 
 # srun --mpi=pmi2 -n 1 -c 4 nrniv -python -mpi init.py  #works
