@@ -1,6 +1,6 @@
 ./ar_traub.c: ../mod/ar_traub.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ar_traub.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ar_traub.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ar_traub.o: ./ar_traub.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -8,7 +8,7 @@
 
 ./cadad.c: ../mod/cadad.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadad.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadad.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cadad.o: ./cadad.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -16,7 +16,7 @@
 
 ./cadyn.c: ../mod/cadyn.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadyn.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadyn.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cadyn.o: ./cadyn.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -24,7 +24,7 @@
 
 ./cagk.c: ../mod/cagk.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cagk.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cagk.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cagk.o: ./cagk.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -32,7 +32,7 @@
 
 ./cal_mh.c: ../mod/cal_mh.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal_mh.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal_mh.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cal_mh.o: ./cal_mh.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -40,7 +40,7 @@
 
 ./cal_mig.c: ../mod/cal_mig.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal_mig.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal_mig.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cal_mig.o: ./cal_mig.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -48,7 +48,7 @@
 
 ./cancr.c: ../mod/cancr.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cancr.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cancr.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cancr.o: ./cancr.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -56,7 +56,7 @@
 
 ./canin.c: ../mod/canin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "canin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "canin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./canin.o: ./canin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -64,7 +64,7 @@
 
 ./can_mig.c: ../mod/can_mig.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "can_mig.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "can_mig.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./can_mig.o: ./can_mig.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -72,7 +72,7 @@
 
 ./catcb.c: ../mod/catcb.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "catcb.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "catcb.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./catcb.o: ./catcb.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -80,7 +80,7 @@
 
 ./cat_mig.c: ../mod/cat_mig.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat_mig.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat_mig.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cat_mig.o: ./cat_mig.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -88,7 +88,7 @@
 
 ./cat_traub.c: ../mod/cat_traub.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat_traub.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat_traub.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./cat_traub.o: ./cat_traub.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -96,7 +96,7 @@
 
 ./ch_CavL.c: ../mod/ch_CavL.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_CavL.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_CavL.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_CavL.o: ./ch_CavL.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -104,7 +104,7 @@
 
 ./ch_CavN.c: ../mod/ch_CavN.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_CavN.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_CavN.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_CavN.o: ./ch_CavN.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -112,7 +112,7 @@
 
 ./ch_KCaS.c: ../mod/ch_KCaS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KCaS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KCaS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_KCaS.o: ./ch_KCaS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -120,7 +120,7 @@
 
 ./ch_Kdrfastngf.c: ../mod/ch_Kdrfastngf.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Kdrfastngf.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Kdrfastngf.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_Kdrfastngf.o: ./ch_Kdrfastngf.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -128,7 +128,7 @@
 
 ./ch_KvAngf.c: ../mod/ch_KvAngf.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvAngf.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvAngf.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_KvAngf.o: ./ch_KvAngf.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -136,7 +136,7 @@
 
 ./ch_KvCaB.c: ../mod/ch_KvCaB.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvCaB.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvCaB.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_KvCaB.o: ./ch_KvCaB.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -144,7 +144,7 @@
 
 ./ch_leak.c: ../mod/ch_leak.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_leak.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_leak.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_leak.o: ./ch_leak.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -152,7 +152,7 @@
 
 ./ch_Navngf.c: ../mod/ch_Navngf.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Navngf.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Navngf.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ch_Navngf.o: ./ch_Navngf.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -160,7 +160,7 @@
 
 ./dipole.c: ../mod/dipole.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "dipole.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "dipole.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./dipole.o: ./dipole.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -168,7 +168,7 @@
 
 ./dipole_pp.c: ../mod/dipole_pp.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "dipole_pp.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "dipole_pp.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./dipole_pp.o: ./dipole_pp.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -176,7 +176,7 @@
 
 ./gabab.c: ../mod/gabab.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "gabab.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "gabab.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./gabab.o: ./gabab.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -184,7 +184,7 @@
 
 ./h_BS.c: ../mod/h_BS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_BS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_BS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./h_BS.o: ./h_BS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -192,7 +192,7 @@
 
 ./HCN1.c: ../mod/HCN1.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "HCN1.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "HCN1.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./HCN1.o: ./HCN1.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -200,7 +200,7 @@
 
 ./h_harnett.c: ../mod/h_harnett.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_harnett.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_harnett.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./h_harnett.o: ./h_harnett.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -208,7 +208,7 @@
 
 ./hin.c: ../mod/hin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./hin.o: ./hin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -216,7 +216,7 @@
 
 ./h_kole.c: ../mod/h_kole.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_kole.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_kole.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./h_kole.o: ./h_kole.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -224,7 +224,7 @@
 
 ./h_migliore.c: ../mod/h_migliore.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_migliore.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "h_migliore.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./h_migliore.o: ./h_migliore.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -232,7 +232,7 @@
 
 ./ican_sidi.c: ../mod/ican_sidi.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ican_sidi.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ican_sidi.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ican_sidi.o: ./ican_sidi.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -240,7 +240,7 @@
 
 ./iccr.c: ../mod/iccr.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iccr.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iccr.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./iccr.o: ./iccr.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -248,7 +248,7 @@
 
 ./IC.c: ../mod/IC.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "IC.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "IC.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./IC.o: ./IC.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -256,7 +256,7 @@
 
 ./iconc_Ca.c: ../mod/iconc_Ca.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iconc_Ca.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iconc_Ca.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./iconc_Ca.o: ./iconc_Ca.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -264,7 +264,7 @@
 
 ./ikscr.c: ../mod/ikscr.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ikscr.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ikscr.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./ikscr.o: ./ikscr.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -272,7 +272,7 @@
 
 ./IKsin.c: ../mod/IKsin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "IKsin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "IKsin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./IKsin.o: ./IKsin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -280,7 +280,7 @@
 
 ./kap_BS.c: ../mod/kap_BS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kap_BS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kap_BS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kap_BS.o: ./kap_BS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -288,7 +288,7 @@
 
 ./kapcb.c: ../mod/kapcb.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kapcb.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kapcb.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kapcb.o: ./kapcb.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -296,7 +296,7 @@
 
 ./kapin.c: ../mod/kapin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kapin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kapin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kapin.o: ./kapin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -304,7 +304,7 @@
 
 ./kBK.c: ../mod/kBK.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kBK.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kBK.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kBK.o: ./kBK.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -312,7 +312,7 @@
 
 ./kca.c: ../mod/kca.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kca.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kca.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kca.o: ./kca.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -320,7 +320,7 @@
 
 ./kctin.c: ../mod/kctin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kctin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kctin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kctin.o: ./kctin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -328,7 +328,7 @@
 
 ./kdmc_BS.c: ../mod/kdmc_BS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdmc_BS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdmc_BS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kdmc_BS.o: ./kdmc_BS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -336,7 +336,7 @@
 
 ./kdr_BS.c: ../mod/kdr_BS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdr_BS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdr_BS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kdr_BS.o: ./kdr_BS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -344,7 +344,7 @@
 
 ./kdrcr.c: ../mod/kdrcr.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdrcr.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdrcr.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kdrcr.o: ./kdrcr.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -352,7 +352,7 @@
 
 ./kdrin.c: ../mod/kdrin.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdrin.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdrin.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kdrin.o: ./kdrin.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -360,7 +360,7 @@
 
 ./km.c: ../mod/km.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "km.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "km.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./km.o: ./km.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -368,7 +368,7 @@
 
 ./kv.c: ../mod/kv.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kv.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kv.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./kv.o: ./kv.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -376,7 +376,7 @@
 
 ./MyExp2SynBB.c: ../mod/MyExp2SynBB.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "MyExp2SynBB.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "MyExp2SynBB.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./MyExp2SynBB.o: ./MyExp2SynBB.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -384,7 +384,7 @@
 
 ./my_exp2syn.c: ../mod/my_exp2syn.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "my_exp2syn.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "my_exp2syn.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./my_exp2syn.o: ./my_exp2syn.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -392,7 +392,7 @@
 
 ./MyExp2SynNMDABB.c: ../mod/MyExp2SynNMDABB.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "MyExp2SynNMDABB.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "MyExp2SynNMDABB.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./MyExp2SynNMDABB.o: ./MyExp2SynNMDABB.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -400,7 +400,7 @@
 
 ./nafcr.c: ../mod/nafcr.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nafcr.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nafcr.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./nafcr.o: ./nafcr.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -408,7 +408,7 @@
 
 ./nafx.c: ../mod/nafx.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nafx.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nafx.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./nafx.o: ./nafx.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -416,7 +416,7 @@
 
 ./nap_sidi.c: ../mod/nap_sidi.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nap_sidi.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nap_sidi.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./nap_sidi.o: ./nap_sidi.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -424,7 +424,7 @@
 
 ./nax_BS.c: ../mod/nax_BS.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nax_BS.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nax_BS.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./nax_BS.o: ./nax_BS.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -432,7 +432,7 @@
 
 ./naz.c: ../mod/naz.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naz.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naz.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./naz.o: ./naz.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -440,7 +440,7 @@
 
 ./Nca.c: ../mod/Nca.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Nca.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Nca.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./Nca.o: ./Nca.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -448,7 +448,7 @@
 
 ./savedist.c: ../mod/savedist.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "savedist.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "savedist.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./savedist.o: ./savedist.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -456,7 +456,7 @@
 
 ./vecstim.c: ../mod/vecstim.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecstim.mod" -o "/global/homes/k/kpkaur28/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecstim.mod" -o "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim/x86_64")
 
 ./vecstim.o: ./vecstim.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"

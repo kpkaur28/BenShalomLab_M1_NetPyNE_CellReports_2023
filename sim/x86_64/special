@@ -1,4 +1,4 @@
-#!/global/homes/k/kpkaur28/.conda/envs/netpyne/bin/python
+#!/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/bin/python
 """
 A generic wrapper to access nrn binaries from a python installation
 Please create a softlink with the binary name to be called.
