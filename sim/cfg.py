@@ -70,14 +70,14 @@ cfg.recordStep = 0.025
 # Saving
 #------------------------------------------------------------------------------
 cfg.simLabel = 'v56_tune3'
-cfg.saveFolder = '../data/v56_manualTune_Run4'
+cfg.saveFolder = '../data/v56_manualTune'
 cfg.savePickle = True
 cfg.saveJson = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams']#, 'net']
 cfg.backupCfgFile = None #['cfg.py', 'backupcfg/'] 
 cfg.gatherOnlySimData = False
 cfg.saveCellSecs = False
-cfg.saveCellConns = False
+cfg.saveCellConns = True
 cfg.compactConnFormat = 0
 
 #------------------------------------------------------------------------------
@@ -91,7 +91,7 @@ cfg.analysis['plotRaster'] = {'include': allpops, 'orderBy': ['pop', 'y'], 'time
 cfg.analysis['plotLFP'] = {'plots': ['timeSeries'], 'electrodes': list(range(len(cfg.recordLFP))), 'figSize': (12,10), 'timeRange': [1000,5000],  'saveFig': True, 'showFig':False} 
 
 #cfg.analysis['plotTraces'] = {'include': [], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False} 
-cfg.analysis['plotTraces'] = {'include': ['PT5B'], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False}
+cfg.analysis['plotTraces'] = {'include': [('PT5B', 0)], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False}
 
 #------------------------------------------------------------------------------
 # Cells
@@ -219,7 +219,7 @@ cfg.pulse2 = {'pop': 'None', 'start': 1000, 'end': 1200, 'rate': [0, 20], 'noise
 cfg.addIClamp = 0
 
 #cfg.IClamp1 = {'pop': 'IT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
-cfg.IClamp1 = {'pop': 'PT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
+cfg.IClamp1 = {'pop': 'PT', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
 
 #------------------------------------------------------------------------------
 # NetStim inputs 
@@ -230,5 +230,5 @@ cfg.addNetStim = 0
 # cfg.NetStim1 = {'pop': 'IT2', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 # 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}
 
-cfg.NetStim1 = {'pop': 'PT5B', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
+cfg.NetStim1 = {'pop': 'PT', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}

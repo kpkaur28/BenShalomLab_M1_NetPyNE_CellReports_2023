@@ -75,3 +75,160 @@ numprocs=64
 	0 
 	0 
 	0 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Importing simConfig from cfg.py
+Importing netParams from netParams.py
+
+Start time:  2023-04-17 23:05:51.726537
+
+Creating network of 22 cell populations on 64 hosts...
+  Number of cells on node 0: 267 
+  Done; cell creation time = 2.10 s.
+Making connections...
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 0: 136813 
+  Number of synaptic contacts on node 0: 550197 
+  Done; cell connection time = 157.12 s.
+  Number of stims on node 0: 0 
+  Done; cell stims creation time = 0.00 s.
+Recording 0 traces of 0 types on node 0
+0.0s
+
+Running with interval func using NEURON for 1000.0 ms...
+0.1s
+0.2s
+0.3s
+0.4s
+0.5s
+0.6s
+0.7s
+0.8s
+0.9s
+1.0s
+   Modifying PT hd gbar by a factor of 0.750000
+  Done; run time = 6351.65 s; real-time ratio: 0.00.
+
+Saving an output file for each node in: ../data/v56_manualTune/v56_tune3_node_data
+  Saving output as: v56_tune3_node_0.pkl ... 
+  Done; saving time = 1.98 s.
+
+Searching for .pkl node files in ../data/v56_manualTune/v56_tune3_node_data ...
+
+Gathering data from files for simulation: v56_tune3 ...
+  Merging data file: v56_tune3_node_0.pkl
+  Merging data file: v56_tune3_node_1.pkl
+  Merging data file: v56_tune3_node_10.pkl
+  Merging data file: v56_tune3_node_11.pkl
+  Merging data file: v56_tune3_node_12.pkl
+  Merging data file: v56_tune3_node_13.pkl
+  Merging data file: v56_tune3_node_14.pkl
+  Merging data file: v56_tune3_node_15.pkl
+  Merging data file: v56_tune3_node_16.pkl
+  Merging data file: v56_tune3_node_17.pkl
+  Merging data file: v56_tune3_node_18.pkl
+  Merging data file: v56_tune3_node_19.pkl
+  Merging data file: v56_tune3_node_2.pkl
+  Merging data file: v56_tune3_node_20.pkl
+  Merging data file: v56_tune3_node_21.pkl
+  Merging data file: v56_tune3_node_22.pkl
+  Merging data file: v56_tune3_node_23.pkl
+  Merging data file: v56_tune3_node_24.pkl
+  Merging data file: v56_tune3_node_25.pkl
+  Merging data file: v56_tune3_node_26.pkl
+  Merging data file: v56_tune3_node_27.pkl
+  Merging data file: v56_tune3_node_28.pkl
+  Merging data file: v56_tune3_node_29.pkl
+  Merging data file: v56_tune3_node_3.pkl
+  Merging data file: v56_tune3_node_30.pkl
+  Merging data file: v56_tune3_node_31.pkl
+  Merging data file: v56_tune3_node_32.pkl
+  Merging data file: v56_tune3_node_33.pkl
+  Merging data file: v56_tune3_node_34.pkl
+  Merging data file: v56_tune3_node_35.pkl
+  Merging data file: v56_tune3_node_36.pkl
+  Merging data file: v56_tune3_node_37.pkl
+  Merging data file: v56_tune3_node_38.pkl
+  Merging data file: v56_tune3_node_39.pkl
+  Merging data file: v56_tune3_node_4.pkl
+  Merging data file: v56_tune3_node_40.pkl
+  Merging data file: v56_tune3_node_41.pkl
+  Merging data file: v56_tune3_node_42.pkl
+  Merging data file: v56_tune3_node_43.pkl
+  Merging data file: v56_tune3_node_44.pkl
+  Merging data file: v56_tune3_node_45.pkl
+  Merging data file: v56_tune3_node_46.pkl
+  Merging data file: v56_tune3_node_47.pkl
+  Merging data file: v56_tune3_node_48.pkl
+  Merging data file: v56_tune3_node_49.pkl
+  Merging data file: v56_tune3_node_5.pkl
+  Merging data file: v56_tune3_node_50.pkl
+  Merging data file: v56_tune3_node_51.pkl
+  Merging data file: v56_tune3_node_52.pkl
+  Merging data file: v56_tune3_node_53.pkl
+  Merging data file: v56_tune3_node_54.pkl
+  Merging data file: v56_tune3_node_55.pkl
+  Merging data file: v56_tune3_node_56.pkl
+  Merging data file: v56_tune3_node_57.pkl
+  Merging data file: v56_tune3_node_58.pkl
+  Merging data file: v56_tune3_node_59.pkl
+  Merging data file: v56_tune3_node_6.pkl
+  Merging data file: v56_tune3_node_60.pkl
+  Merging data file: v56_tune3_node_61.pkl
+  Merging data file: v56_tune3_node_62.pkl
+  Merging data file: v56_tune3_node_63.pkl
+  Merging data file: v56_tune3_node_7.pkl
+  Merging data file: v56_tune3_node_8.pkl
+  Merging data file: v56_tune3_node_9.pkl
+  Done; gather time = 1.41 s.
+
+Analyzing...
+  Cells: 17073
+  Connections: 0 (0.00 per cell)
+  Spikes: 47184 (2.76 Hz)
+  Simulated time: 1.0 s; 64 workers
+  Run time: 6351.65 s
+   IT2 : 0.000 Hz
+   SOM2 : 0.000 Hz
+   PV2 : 0.000 Hz
+   IT4 : 0.000 Hz
+   IT5A : 0.000 Hz
+   SOM5A : 0.000 Hz
+   PV5A : 0.000 Hz
+   IT5B : 0.000 Hz
+   PT5B : 0.000 Hz
+   SOM5B : 0.000 Hz
+   PV5B : 0.000 Hz
+   IT6 : 0.000 Hz
+   CT6 : 0.000 Hz
+   SOM6 : 0.000 Hz
+   PV6 : 0.000 Hz
+   TPO : 0.000 Hz
+   TVL : 0.000 Hz
+   S1 : 0.000 Hz
+   S2 : 0.000 Hz
+   cM1 : 0.000 Hz
+   M2 : 0.000 Hz
+   OC : 0.000 Hz
+Saving output as ../data/v56_manualTune/v56_tune3_data.pkl ... 
+Finished saving!
+  Done; saving time = 0.52 s.
+Preparing spike data...
+  There was an exception in prepareSpikeData(): 
+    Categorical.set_categories() got an unexpected keyword argument 'inplace' 
+    (<class 'TypeError'>, TypeError("Categorical.set_categories() got an unexpected keyword argument 'inplace'"), <traceback object at 0x7f3c846073c0>)
+Plotting raster...
+  There was an exception in plotRaster(): 
+    local variable 'spkInds' referenced before assignment 
+    (<class 'UnboundLocalError'>, UnboundLocalError("local variable 'spkInds' referenced before assignment"), <traceback object at 0x7f3c87785bc0>)
+Preparing LFP data...
+Plotting LFP time series...
+  There was an exception in plotLFPTimeSeries(): 
+    zero-size array to reduction operation maximum which has no identity 
+    (<class 'ValueError'>, ValueError('zero-size array to reduction operation maximum which has no identity'), <traceback object at 0x7f3c866d2700>)
+Plotting recorded cell traces ... trace
+  Done; plotting time = 1.67 s
+
+Total time = 6516.66 s
+slurmstepd: error: *** STEP 7764874.0 ON nid004228 CANCELLED AT 2023-04-18T10:06:04 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 7764874 ON nid004228 CANCELLED AT 2023-04-18T10:06:04 DUE TO TIME LIMIT ***
