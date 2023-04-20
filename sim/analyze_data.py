@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 print("HELLOOOOO")
 
 # define the path to the file
-path = "/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/data/v56_manualTune-p1/v56_tune3_data.pkl"
+path = "../data/v56_manualTune-p1/v56_tune3_data.pkl"
 
 #Open the pickle data file created from previous simulation
 with open(path, 'rb') as f:
