@@ -63,14 +63,14 @@ cfg.recordDipoles = False # {'L2': ['IT2'], 'L4': ['IT4'], 'L5': ['IT5A', 'IT5B'
 
 cfg.recordStim = False
 cfg.recordTime = False
-cfg.recordStep = 1  #changed from 0.025
+cfg.recordStep = 0.025
 
 
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
 cfg.simLabel = 'v56_tune3'
-cfg.saveFolder = '../data/v56_manualTune-p2'
+cfg.saveFolder = '../data/v56_manualTune-p3'
 cfg.savePickle = True
 cfg.saveJson = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams']#, 'net']
@@ -85,14 +85,11 @@ cfg.compactConnFormat = 0
 #------------------------------------------------------------------------------
 with open('cells/popColors.pkl', 'rb') as fileObj: popColors = pickle.load(fileObj)['popColors']
 
-cfg.analysis['plotRaster'] = {'include': allpops, 'orderBy': ['pop', 'y'], 'timeRange': [0, cfg.duration], 'saveFig': True, 'showFig': False, 'popRates': True, 'orderInverse': True, 'popColors': popColors, 'figSize': (12,10), 'lw': 0.3, 'markerSize':3, 'marker': '.', 'dpi': 300} 
-
-
-cfg.analysis['plotLFP'] = {'plots': ['timeSeries'], 'electrodes': list(range(len(cfg.recordLFP))), 'figSize': (12,10), 'timeRange': [1000,5000],  'saveFig': True, 'showFig':False} 
+cfg.analysis['plotRaster'] = {'include': allpops, 'orderBy': ['pop', 'y'], 'timeRange': [0, cfg.duration], 'saveFig': True, 'popRates': True, 'orderInverse': True, 'popColors': popColors} 
+cfg.analysis['plotLFP'] = {'plots': ['timeSeries'], 'electrodes': list(range(len(cfg.recordLFP))), 'timeRange': [1000,5000],  'saveFig': True} 
 
 #cfg.analysis['plotTraces'] = {'include': [], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False} 
-cfg.analysis['plotTraces'] = {'include': [('PT5B', 0), ('PT5B', 1), ('PT5B', 5)], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False}
-
+cfg.analysis['plotTraces'] = {'include': [('PT5B', 0), ('PT5B', 5), ('PT5B', 10)], 'timeRange': [0, cfg.duration], 'saveFig': True}
 cfg.analysis['plot2Dnet'] = {'saveFig': True}                                                # plot 2D cell positions and connections
 cfg.analysis['plotConn'] = {'saveFig': True}                                                 # plot connectivity matrix
 cfg.analysis['plot2Dfiring'] = {'saveFig': True, 'showFig': True}
@@ -222,7 +219,7 @@ cfg.pulse2 = {'pop': 'None', 'start': 1000, 'end': 1200, 'rate': [0, 20], 'noise
 cfg.addIClamp = 0
 
 #cfg.IClamp1 = {'pop': 'IT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
-cfg.IClamp1 = {'pop': 'PT', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
+cfg.IClamp1 = {'pop': 'PT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
 
 #------------------------------------------------------------------------------
 # NetStim inputs 
@@ -233,5 +230,5 @@ cfg.addNetStim = 0
 # cfg.NetStim1 = {'pop': 'IT2', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 # 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}
 
-cfg.NetStim1 = {'pop': 'PT', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
+cfg.NetStim1 = {'pop': 'PT5B', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}

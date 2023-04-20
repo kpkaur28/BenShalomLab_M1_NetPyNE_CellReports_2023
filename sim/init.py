@@ -78,8 +78,11 @@ sim.runSimWithIntervalFunc(1000.0, modifyMechsFunc)       # run parallel Neuron 
 # sim.gatherData()
 
 # Gather/save data option 2: distributed saving across nodes 
-sim.saveDataInNodes()
-sim.gatherDataFromFiles()
+#sim.saveDataInNodes()
+#sim.gatherDataFromFiles()
+
+# Create network and run simulation
+sim.createSimulateAnalyze(simConfig = cfg, netParams = netParams)
 
 sim.saveData()                    			# save params, cell info and sim output to file (pickle,mat,txt,etc)#
 sim.analysis.plotData()         			# plot spike raster etc

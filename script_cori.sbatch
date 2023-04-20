@@ -37,7 +37,7 @@ cd /global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellRep
 # srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py
 
 #running with openmpi in conda environment
-srun --mpi=pmi2 -n 64 shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi works 1832679 numprocs=64
+srun --mpi=pmi2 -n 64 -c 4 shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi works 1832679 numprocs=64
 
 #running with shifter
 #srun -n 64 -C haswell shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi does not work #1832586 numprocs=1

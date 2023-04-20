@@ -2,7 +2,7 @@
 #SBATCH --job-name=netpyne-p
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=64
-#SBATCH --time=4:00:00
+#SBATCH --time=3:00:00
 #SBATCH -C cpu
 #SBATCH -q regular
 #SBATCH --account m2043
