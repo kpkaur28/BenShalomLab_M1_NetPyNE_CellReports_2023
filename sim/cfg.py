@@ -70,7 +70,7 @@ cfg.recordStep = 1  #changed from 0.025
 # Saving
 #------------------------------------------------------------------------------
 cfg.simLabel = 'v56_tune3'
-cfg.saveFolder = '../data/v56_manualTune-p1'
+cfg.saveFolder = '../data/v56_manualTune-p2'
 cfg.savePickle = True
 cfg.saveJson = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams']#, 'net']
