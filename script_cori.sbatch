@@ -2,7 +2,7 @@
 #SBATCH --job-name=netpyne-c
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
-#SBATCH --time=4:00:00
+#SBATCH --time=6:00:00
 #SBATCH --partition=regular
 #SBATCH -C haswell
 #SBATCH --account m2043
@@ -37,7 +37,9 @@ cd /global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellRep
 # srun --mpi=pmi2 -n 64 nrniv -python -mpi init.py
 
 #running with openmpi in conda environment
-srun --mpi=pmi2 -n 64 -c 4 shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi works 1832679 numprocs=64
+srun --mpi=pmi2 -n 64 shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi works 1832679 numprocs=64 
+# 1875759 cancelled due to time limit of 4
+# 1923347 run again with time limit of 6
 
 #running with shifter
 #srun -n 64 -C haswell shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py # mpi does not work #1832586 numprocs=1

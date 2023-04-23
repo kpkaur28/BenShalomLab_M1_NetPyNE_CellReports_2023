@@ -3,6 +3,7 @@ import pickle
 from netpyne import sim
 import numpy as np
 import matplotlib.pyplot as plt
+import csv
 
 print("HELLOOOOO")
 
@@ -15,6 +16,24 @@ with open(path, 'rb') as f:
 
 print("Data:", set(data.keys()))
 
+# cfg, netParams = sim.readCmdLineArgs()
+# sim.initialize(
+#     simConfig = cfg, 	
+#     netParams = netParams)  # create network object and set cfg and net params
+
+# sim.pc.timeout(300)                          # set nrn_timeout threshold to X sec (max time allowed without increasing simulation time, t; 0 = turn off)
+# sim.net.createPops()               			# instantiate network populations
+# sim.net.createCells()              			# instantiate network cells based on defined populations
+#sim.net.connectCells()            			# create connections between cells based on params
+#sim.net.addStims() 							# add network stimulation
+#sim.setupRecording()              			# setup variables to record for each cell (spikes, V traces, etc
+
+# Get the pop object for the PT5B population
+pt5b_pop = sim.net.pops['PT5B']
+# Get the list of cell GIDs in the PT5B population
+pt5b_cell_gids = pt5b_pop.cellGids
+# print(pt5b_cell_gids)
+
 # simConfig data settings, or boolean values
 # print("simConfig:", set(data['simConfig'].keys()))
 # print("recordLFP:", data['simConfig']['recordLFP'])
@@ -25,24 +44,25 @@ print("Data:", set(data.keys()))
 # print("recordCellsSpikes:", data['simConfig']['recordCellsSpikes'])
 # print("recordTime:", data['simConfig']['recordTime'])
 
-# print("simData:", set(data['simData'].keys()))
-# print("spkt:", data['simData']['spkt'])
-# print("popRates:", data['simData']['popRates'])
-# print("LFP:", data['simData']['LFP'])
-# print("t:", data['simData']['t'])
-# print("spkid:", data['simData']['spkid'])
-# print("avgRate:", data['simData']['avgRate'])
-# print("V_soma:", data['simData']['V_soma'])
+# Get spike times and cell gids
+#print("simData:", set(data['simData'].keys()))
+# print("spkt:", len(data['simData']['spkt']))
+#print("popRates:", data['simData']['popRates'])
+#print("LFP:", data['simData']['LFP'])
+#print("t:", data['simData']['t'])
+#print("spkid:", (data['simData']['spkid']))
+#print("avgRate:", data['simData']['avgRate'])
+#print("V_soma:", data['simData']['V_soma'])
 
 # Get PT5B data:
 print("net:", set(data['net'].keys()))
 print("PT5B:", set(data['net']['params']['popParams']['PT5B'].keys()))
 print("pop:", data['net']['params']['popParams']['PT5B']['pop'])
-print("density:", data['net']['params']['popParams']['PT5B']['density'])
-print("numCells:", data['net']['params']['popParams']['PT5B']['numCells'])
-print("cellType:", data['net']['params']['popParams']['PT5B']['cellType'])
-print("ynormRange:", data['net']['params']['popParams']['PT5B']['ynormRange'])
-print("cellModel:", data['net']['params']['popParams']['PT5B']['cellModel'])
+# print("density:", data['net']['params']['popParams']['PT5B']['density'])
+# print("numCells:", data['net']['params']['popParams']['PT5B']['numCells'])
+# print("cellType:", data['net']['params']['popParams']['PT5B']['cellType'])
+# print("ynormRange:", data['net']['params']['popParams']['PT5B']['ynormRange'])
+# print("cellModel:", data['net']['params']['popParams']['PT5B']['cellModel'])
 
 #Extract the voltage data from the data dictionary using the sim.allSimData dictionary, which stores the simulation results:
 

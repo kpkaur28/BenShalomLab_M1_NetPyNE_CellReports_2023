@@ -66,7 +66,7 @@ sim.net.createPops()               			# instantiate network populations
 sim.net.createCells()              			# instantiate network cells based on defined populations
 sim.net.connectCells()            			# create connections between cells based on params
 sim.net.addStims() 							# add network stimulation
-sim.setupRecording()              			# setup variables to record for each cell (spikes, V traces, etc)
+sim.setupRecording()              			# setup variables to record for each cell (spikes, V traces, etc
 
 # Simulation option 1: standard
 # sim.runSim()                              # run parallel Neuron simulation (calling func to modify mechs)
@@ -78,11 +78,11 @@ sim.runSimWithIntervalFunc(1000.0, modifyMechsFunc)       # run parallel Neuron 
 # sim.gatherData()
 
 # Gather/save data option 2: distributed saving across nodes 
-#sim.saveDataInNodes()
-#sim.gatherDataFromFiles()
+sim.saveDataInNodes()
+sim.gatherDataFromFiles()
 
 # Create network and run simulation
-sim.createSimulateAnalyze(simConfig = cfg, netParams = netParams)
+#sim.createSimulateAnalyze(simConfig = cfg, netParams = netParams)
 
 sim.saveData()                    			# save params, cell info and sim output to file (pickle,mat,txt,etc)#
 sim.analysis.plotData()         			# plot spike raster etc
