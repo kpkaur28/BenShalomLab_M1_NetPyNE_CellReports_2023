@@ -42,7 +42,7 @@ cfg.checkErrors = False
 
 cfg.saveInterval = 100 # define how often the data is saved, this can be used with interval run if you want to update the weights more often than you save
 cfg.intervalFolder = 'interval_saving'
-
+#cfg.useGPU = True
 
 #------------------------------------------------------------------------------
 # Recording 
@@ -61,8 +61,8 @@ cfg.saveLFPPops =  False # allpops
 
 cfg.recordDipoles = False # {'L2': ['IT2'], 'L4': ['IT4'], 'L5': ['IT5A', 'IT5B', 'PT5B']}
 
-cfg.recordStim = False
-cfg.recordTime = False
+cfg.recordStim = True
+cfg.recordTime = True
 cfg.recordStep = 0.025
 
 
@@ -70,32 +70,32 @@ cfg.recordStep = 0.025
 # Saving
 #------------------------------------------------------------------------------
 cfg.simLabel = 'v56_tune3'
-cfg.saveFolder = '../data/v56_manualTune-p1'
+cfg.saveFolder = '../data/v56_manualTune-p5'
 cfg.savePickle = True
 cfg.saveJson = False
-cfg.saveDataInclude = ['simData', 'simConfig', 'netParams']#, 'net']
-cfg.backupCfgFile = None #['cfg.py', 'backupcfg/'] 
+cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']
+cfg.backupCfgFile = None #['cfg.py', 'backupcfg/']
 cfg.gatherOnlySimData = False
 cfg.saveCellSecs = False
 cfg.saveCellConns = True
 cfg.compactConnFormat = 0
+cfg.recordCells = [('PT5B',x) for x in [0,100,393,579,19,104,1435]] #,214,1138,799]] # record selected cells
 
 #------------------------------------------------------------------------------
 # Analysis and plotting 
 #------------------------------------------------------------------------------
 with open('cells/popColors.pkl', 'rb') as fileObj: popColors = pickle.load(fileObj)['popColors']
 
-cfg.analysis['plotRaster'] = {'include': allpops, 'orderBy': ['pop', 'y'], 'timeRange': [0, cfg.duration], 'saveFig': True, 'showFig': False, 'popRates': True, 'orderInverse': True, 'popColors': popColors, 'figSize': (12,10), 'lw': 0.3, 'markerSize':3, 'marker': '.', 'dpi': 300} 
-
-
-cfg.analysis['plotLFP'] = {'plots': ['timeSeries'], 'electrodes': list(range(len(cfg.recordLFP))), 'figSize': (12,10), 'timeRange': [1000,5000],  'saveFig': True, 'showFig':False} 
+cfg.analysis['plotRaster'] = {'include': allpops, 'orderBy': ['pop', 'y'], 'timeRange': [0, cfg.duration], 'saveFig': True, 'popRates': True, 'orderInverse': True, 'popColors': popColors} 
+cfg.analysis['plotLFP'] = {'include': allpops, 'plots': ['timeSeries'], 'electrodes': list(range(len(cfg.recordLFP))), 'timeRange': [1000,5000],  'saveFig': True} 
 
 #cfg.analysis['plotTraces'] = {'include': [], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False} 
-cfg.analysis['plotTraces'] = {'include': [('PT5B', 0)], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False}
-
-cfg.analysis['plot2Dnet'] = {'saveFig': True}                                                # plot 2D cell positions and connections
-cfg.analysis['plotConn'] = {'saveFig': True}                                                 # plot connectivity matrix
-cfg.analysis['plot2Dfiring'] = {'saveFig': True, 'showFig': True}
+#cfg.analysis['plotTraces'] = {'include': [('PT5B', 0), ('PT5B', 1), ('PT5B', 2)], 'timeRange': [0, cfg.duration], 'saveFig': True}
+#cfg.analysis['plotTraces'] = {'include': [('PT5B', 5134), ('PT5B', 5135), ('PT5B', 5330), ('PT5B', 5361)], 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'saveFig': True, 'showFig': False}
+cfg.analysis['plotTraces'] = {'include': cfg.recordCells, 'timeRange': [0, cfg.duration], 'oneFigPer': 'trace', 'figSize': (10,4), 'subtitles':True, 'overlay':True, 'saveFig': True, 'showFig': False}
+cfg.analysis['plot2Dnet'] = {'include': allpops, 'saveFig': True, 'showConns': True}                                                # plot 2D cell positions and connections
+cfg.analysis['plotConn'] = {'include': allpops, 'saveFig': True, }                                                 # plot connectivity matrix
+cfg.analysis['plot2Dfiring'] = {'include': ('PT5B'),'saveFig': True, 'showFig': True}
 #------------------------------------------------------------------------------
 # Cells
 #------------------------------------------------------------------------------
@@ -222,7 +222,7 @@ cfg.pulse2 = {'pop': 'None', 'start': 1000, 'end': 1200, 'rate': [0, 20], 'noise
 cfg.addIClamp = 0
 
 #cfg.IClamp1 = {'pop': 'IT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
-cfg.IClamp1 = {'pop': 'PT', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
+cfg.IClamp1 = {'pop': 'IT5B', 'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.50}
 
 #------------------------------------------------------------------------------
 # NetStim inputs 
@@ -233,5 +233,5 @@ cfg.addNetStim = 0
 # cfg.NetStim1 = {'pop': 'IT2', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 # 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}
 
-cfg.NetStim1 = {'pop': 'PT', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
+cfg.NetStim1 = {'pop': 'IT2', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
 				'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0, 'number': 60.0, 'weight': 30.0, 'delay': 0}

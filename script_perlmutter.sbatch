@@ -2,7 +2,7 @@
 #SBATCH --job-name=netpyne-p
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=64
-#SBATCH --time=4:00:00
+#SBATCH --time=6:00:00
 #SBATCH -C cpu
 #SBATCH -q regular
 #SBATCH --account m2043
@@ -37,6 +37,9 @@ cd /global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellRep
 # srun -n 2 shifter python3 -m mpi4py.bench helloworld # works
 # srun -n 4 -c 4 shifter nrniv -python -mpi init.py  #standard way to use shifter
 srun -n 64 -c 4 shifter --image=kpkaur28/neuron:v3 nrniv -python -mpi init.py  #standard way to use shifter
+# 7993256 time limit cancelled job # not gathering data from files or reading files (3 hours)
+# 8014831 data is there but trace empty, job cancelled due to time limit (4 hours)
+# 8063103 data is there, trace is there but no command line arguments, job cancelled due to time limit (6 hours)
 
 # srun -n 1 -c 4 nrniv shifter -python3 -mpi init.py 
 # srun --mpi=pmi2 -n 1 -c 4 nrniv -python -mpi init.py  #works
