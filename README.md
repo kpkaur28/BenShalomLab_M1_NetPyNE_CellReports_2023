@@ -112,7 +112,7 @@ If you are still unable to load the correct version of Python, or if you are uns
 
 -----------------------------------------
 
-### Current Status: 
+### Shifter Image: 
 
 Building shifter image using Docker on your laptop.
 Pull the shifter image on Cori/Perlmutter: 
@@ -135,8 +135,10 @@ $ pip freeze list >> shifter.yml`
 This will give a list of Python packages installed in the shifter image.
 
 -----------------------------------------
+Cori supercomputer scheduled to retire in May 2023. Transition to Perlmutter supercomputer.
 
-
+On Perlmutter, 
+Run the script provided script_perlmutter.sbatch to run with the shifter image that has all the required software packages.
 
 -----------------------------------------
 
