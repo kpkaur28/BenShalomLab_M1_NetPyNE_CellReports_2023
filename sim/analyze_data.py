@@ -8,13 +8,20 @@ import csv
 print("HELLOOOOO")
 
 # define the path to the file
-path = "../data/v56_manualTune-p1/v56_tune3_data.pkl"
+path = "../data/v56_manualTune-p3/v56_tune3_data.pkl"
+path1 = "../data/v56_manualTune-p3/v56_tune3_node_data/v56_tun3_node_0.pkl"
 
 #Open the pickle data file created from previous simulation
 with open(path, 'rb') as f:
     data = pickle.load(f)
 
 print("Data:", set(data.keys()))
+
+#Open the pickle data file created from previous simulation
+# with open(path, 'rb') as f:
+#     data1 = pickle.load(f)
+
+# print("Data1:", set(data1.keys()))
 
 # cfg, netParams = sim.readCmdLineArgs()
 # sim.initialize(
@@ -29,9 +36,9 @@ print("Data:", set(data.keys()))
 #sim.setupRecording()              			# setup variables to record for each cell (spikes, V traces, etc
 
 # Get the pop object for the PT5B population
-pt5b_pop = sim.net.pops['PT5B']
+#pt5b_pop = sim.net.pops['PT5B']
 # Get the list of cell GIDs in the PT5B population
-pt5b_cell_gids = pt5b_pop.cellGids
+#pt5b_cell_gids = pt5b_pop.cellGids
 # print(pt5b_cell_gids)
 
 # simConfig data settings, or boolean values
@@ -54,10 +61,13 @@ pt5b_cell_gids = pt5b_pop.cellGids
 #print("avgRate:", data['simData']['avgRate'])
 #print("V_soma:", data['simData']['V_soma'])
 
+# for gid in spkid:
+#     pop_val = data['net']['cells'][gid]['tags']['pop']
+
 # Get PT5B data:
-print("net:", set(data['net'].keys()))
-print("PT5B:", set(data['net']['params']['popParams']['PT5B'].keys()))
-print("pop:", data['net']['params']['popParams']['PT5B']['pop'])
+# print("net:", set(data['net'].keys()))
+# print("PT5B:", set(data['net']['params']['popParams']['PT5B'].keys()))
+# print("pop:", data['net']['params']['popParams']['PT5B']['pop'])
 # print("density:", data['net']['params']['popParams']['PT5B']['density'])
 # print("numCells:", data['net']['params']['popParams']['PT5B']['numCells'])
 # print("cellType:", data['net']['params']['popParams']['PT5B']['cellType'])
