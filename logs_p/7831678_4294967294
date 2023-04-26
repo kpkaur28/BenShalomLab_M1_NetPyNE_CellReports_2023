@@ -1,0 +1,649 @@
+/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+Mod files: "mod/mod/ar_traub.mod" "mod/mod/cadad.mod" "mod/mod/cadyn.mod" "mod/mod/cagk.mod" "mod/mod/cal_mh.mod" "mod/mod/cal_mig.mod" "mod/mod/cancr.mod" "mod/mod/canin.mod" "mod/mod/can_mig.mod" "mod/mod/catcb.mod" "mod/mod/cat_mig.mod" "mod/mod/cat_traub.mod" "mod/mod/ch_CavL.mod" "mod/mod/ch_CavN.mod" "mod/mod/ch_KCaS.mod" "mod/mod/ch_Kdrfastngf.mod" "mod/mod/ch_KvAngf.mod" "mod/mod/ch_KvCaB.mod" "mod/mod/ch_leak.mod" "mod/mod/ch_Navngf.mod" "mod/mod/dipole.mod" "mod/mod/dipole_pp.mod" "mod/mod/gabab.mod" "mod/mod/h_BS.mod" "mod/mod/HCN1.mod" "mod/mod/h_harnett.mod" "mod/mod/hin.mod" "mod/mod/h_kole.mod" "mod/mod/h_migliore.mod" "mod/mod/ican_sidi.mod" "mod/mod/iccr.mod" "mod/mod/IC.mod" "mod/mod/iconc_Ca.mod" "mod/mod/ikscr.mod" "mod/mod/IKsin.mod" "mod/mod/kap_BS.mod" "mod/mod/kapcb.mod" "mod/mod/kapin.mod" "mod/mod/kBK.mod" "mod/mod/kca.mod" "mod/mod/kctin.mod" "mod/mod/kdmc_BS.mod" "mod/mod/kdr_BS.mod" "mod/mod/kdrcr.mod" "mod/mod/kdrin.mod" "mod/mod/km.mod" "mod/mod/kv.mod" "mod/mod/MyExp2SynBB.mod" "mod/mod/my_exp2syn.mod" "mod/mod/MyExp2SynNMDABB.mod" "mod/mod/nafcr.mod" "mod/mod/nafx.mod" "mod/mod/nap_sidi.mod" "mod/mod/nax_BS.mod" "mod/mod/naz.mod" "mod/mod/Nca.mod" "mod/mod/savedist.mod" "mod/mod/vecstim.mod"
+
+ -> [32mCompiling[0m mod_func.cpp
+ => [32mLINKING[0m shared library ./libnrnmech.so
+Successfully created x86_64/special
+NEURON -- VERSION 8.2.2 HEAD (93d41fafd) 2022-12-15
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mod/ar_traub.mod" "mod/cadad.mod" "mod/cadyn.mod" "mod/cagk.mod" "mod/cal_mh.mod" "mod/cal_mig.mod" "mod/cancr.mod" "mod/canin.mod" "mod/can_mig.mod" "mod/catcb.mod" "mod/cat_mig.mod" "mod/cat_traub.mod" "mod/ch_CavL.mod" "mod/ch_CavN.mod" "mod/ch_KCaS.mod" "mod/ch_Kdrfastngf.mod" "mod/ch_KvAngf.mod" "mod/ch_KvCaB.mod" "mod/ch_leak.mod" "mod/ch_Navngf.mod" "mod/dipole.mod" "mod/dipole_pp.mod" "mod/gabab.mod" "mod/h_BS.mod" "mod/HCN1.mod" "mod/h_harnett.mod" "mod/hin.mod" "mod/h_kole.mod" "mod/h_migliore.mod" "mod/ican_sidi.mod" "mod/iccr.mod" "mod/IC.mod" "mod/iconc_Ca.mod" "mod/ikscr.mod" "mod/IKsin.mod" "mod/kap_BS.mod" "mod/kapcb.mod" "mod/kapin.mod" "mod/kBK.mod" "mod/kca.mod" "mod/kctin.mod" "mod/kdmc_BS.mod" "mod/kdr_BS.mod" "mod/kdrcr.mod" "mod/kdrin.mod" "mod/km.mod" "mod/kv.mod" "mod/MyExp2SynBB.mod" "mod/my_exp2syn.mod" "mod/MyExp2SynNMDABB.mod" "mod/nafcr.mod" "mod/nafx.mod" "mod/nap_sidi.mod" "mod/nax_BS.mod" "mod/naz.mod" "mod/Nca.mod" "mod/savedist.mod" "mod/vecstim.mod"
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+numprocs=64
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+4 /usr/local/bin/nrniv: gid=4 already exists on this process as an output port
+4  near line 0
+4  ko0_k_ion = 2.5
+                ^
+        4 ParallelContext[6].set_gid2node(4, 4)
+MPICH ERROR [Rank 4] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 4
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 4
+53 /usr/local/bin/nrniv: gid=53 already exists on this process as an output port
+53  near line 0
+53  ko0_k_ion = 2.5
+                ^
+        53 ParallelContext[6].set_gid2node(53, 53)
+MPICH ERROR [Rank 53] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 53 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 53
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 53
+55 /usr/local/bin/nrniv: gid=55 already exists on this process as an output port
+55  near line 0
+55  ko0_k_ion = 2.5
+                ^
+        55 ParallelContext[6].set_gid2node(55, 55)
+MPICH ERROR [Rank 55] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 55 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 55
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 55
+32 /usr/local/bin/nrniv: gid=32 already exists on this process as an output port
+32  near line 0
+32  ko0_k_ion = 2.5
+                ^
+        32 ParallelContext[6].set_gid2node(32, 32)
+36 /usr/local/bin/nrniv: gid=36 already exists on this process as an output port
+36  near line 0
+36  ko0_k_ion = 2.5
+                ^
+        36 ParallelContext[6].set_gid2node(36, 36)
+38 /usr/local/bin/nrniv: gid=38 already exists on this process as an output port
+38  near line 0
+38  ko0_k_ion = 2.5
+                ^
+        38 ParallelContext[6].set_gid2node(38, 38)
+MPICH ERROR [Rank 38] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 38 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 38
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 38
+2 /usr/local/bin/nrniv: gid=2 already exists on this process as an output port
+2  near line 0
+2  ko0_k_ion = 2.5
+                ^
+        2 ParallelContext[6].set_gid2node(2, 2)
+MPICH ERROR [Rank 2] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 2 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 2
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 2
+MPICH ERROR [Rank 32] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 32 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 32
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 32
+MPICH ERROR [Rank 36] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 36 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 36
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 36
+58 /usr/local/bin/nrniv: gid=58 already exists on this process as an output port
+58  near line 0
+58  ko0_k_ion = 2.5
+                ^
+60 /usr/local/bin/nrniv: gid=60 already exists on this process as an output port
+60  near line 0
+60  ko0_k_ion = 2.5
+                ^
+        60 ParallelContext[6].set_gid2node(60, 60)
+56 /usr/local/bin/nrniv: gid=56 already exists on this process as an output port
+56  near line 0
+56  ko0_k_ion = 2.5
+                ^
+        56 ParallelContext[6].set_gid2node(56, 56)
+MPICH ERROR [Rank 56] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 56 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 56
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 56
+        58 ParallelContext[6].set_gid2node(58, 58)
+MPICH ERROR [Rank 58] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 58 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 58
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 58
+MPICH ERROR [Rank 60] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 60 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 60
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 60
+62 /usr/local/bin/nrniv: gid=62 already exists on this process as an output port
+62  near line 0
+62  ko0_k_ion = 2.5
+                ^
+        62 ParallelContext[6].set_gid2node(62, 62)
+MPICH ERROR [Rank 62] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 62 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 62
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 62
+9 /usr/local/bin/nrniv: gid=9 already exists on this process as an output port
+9  near line 0
+11 /usr/local/bin/nrniv: gid=11 already exists on this process as an output port
+11  near line 0
+11  ko0_k_ion = 2.5
+                ^
+43 /usr/local/bin/nrniv: gid=43 already exists on this process as an output port
+43  near line 0
+45 /usr/local/bin/nrniv: gid=45 already exists on this process as an output port
+45  near line 0
+45  ko0_k_ion = 2.5
+                ^
+        45 ParallelContext[6].set_gid2node(45, 45)
+47 /usr/local/bin/nrniv: gid=47 already exists on this process as an output port
+47  near line 0
+47  ko0_k_ion = 2.5
+                ^
+        47 ParallelContext[6].set_gid2node(47, 47)
+48 /usr/local/bin/nrniv: gid=48 already exists on this process as an output port
+48  near line 0
+48  ko0_k_ion = 2.5
+                ^
+        48 ParallelContext[6].set_gid2node(48, 48)
+50 /usr/local/bin/nrniv: gid=50 already exists on this process as an output port
+50  near line 0
+50  ko0_k_ion = 2.5
+                ^
+        50 ParallelContext[6].set_gid2node(50, 50)
+MPICH ERROR [Rank 50] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 50 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 50
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 50
+52 /usr/local/bin/nrniv: gid=52 already exists on this process as an output port
+52  near line 0
+52  ko0_k_ion = 2.5
+                ^
+        52 ParallelContext[6].set_gid2node(52, 52)
+MPICH ERROR [Rank 52] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 52 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 52
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 52
+54 /usr/local/bin/nrniv: gid=54 already exists on this process as an output port
+54  near line 0
+54  ko0_k_ion = 2.5
+                ^
+        54 ParallelContext[6].set_gid2node(54, 54)
+MPICH ERROR [Rank 54] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 54 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 54
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 54
+9  ko0_k_ion = 2.5
+                ^
+        9 ParallelContext[6].set_gid2node(9, 9)
+MPICH ERROR [Rank 9] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 9 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 9
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 9
+        11 ParallelContext[6].set_gid2node(11, 11)
+MPICH ERROR [Rank 11] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 11
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 11
+13 /usr/local/bin/nrniv: gid=13 already exists on this process as an output port
+13  near line 0
+13  ko0_k_ion = 2.5
+                ^
+        13 ParallelContext[6].set_gid2node(13, 13)
+MPICH ERROR [Rank 13] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 13 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 13
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 13
+15 /usr/local/bin/nrniv: gid=15 already exists on this process as an output port
+15  near line 0
+15  ko0_k_ion = 2.5
+                ^
+        15 ParallelContext[6].set_gid2node(15, 15)
+MPICH ERROR [Rank 15] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 15 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 15
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 15
+26 /usr/local/bin/nrniv: gid=26 already exists on this process as an output port
+26  near line 0
+26  ko0_k_ion = 2.5
+                ^
+        26 ParallelContext[6].set_gid2node(26, 26)
+28 /usr/local/bin/nrniv: gid=28 already exists on this process as an output port
+28  near line 0
+28  ko0_k_ion = 2.5
+                ^
+        28 ParallelContext[6].set_gid2node(28, 28)
+MPICH ERROR [Rank 28] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 28 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 28
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 28
+40 /usr/local/bin/nrniv: gid=40 already exists on this process as an output port
+40  near line 0
+40  ko0_k_ion = 2.5
+                ^
+        40 ParallelContext[6].set_gid2node(40, 40)
+MPICH ERROR [Rank 40] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 40
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 40
+41 /usr/local/bin/nrniv: gid=41 already exists on this process as an output port
+41  near line 0
+41  ko0_k_ion = 2.5
+                ^
+        41 ParallelContext[6].set_gid2node(41, 41)
+MPICH ERROR [Rank 41] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 41 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 41
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 41
+43  ko0_k_ion = 2.5
+                ^
+        43 ParallelContext[6].set_gid2node(43, 43)
+MPICH ERROR [Rank 43] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 43 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 43
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 43
+44 /usr/local/bin/nrniv: gid=44 already exists on this process as an output port
+44  near line 0
+44  ko0_k_ion = 2.5
+                ^
+        44 ParallelContext[6].set_gid2node(44, 44)
+MPICH ERROR [Rank 44] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 44 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 44
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 44
+MPICH ERROR [Rank 45] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 45 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 45
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 45
+46 /usr/local/bin/nrniv: gid=46 already exists on this process as an output port
+46  near line 0
+46  ko0_k_ion = 2.5
+                ^
+        46 ParallelContext[6].set_gid2node(46, 46)
+MPICH ERROR [Rank 46] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 46 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 46
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 46
+MPICH ERROR [Rank 48] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 48 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 48
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 48
+49 /usr/local/bin/nrniv: gid=49 already exists on this process as an output port
+49  near line 0
+49  ko0_k_ion = 2.5
+                ^
+        49 ParallelContext[6].set_gid2node(49, 49)
+MPICH ERROR [Rank 49] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 49 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 49
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 49
+57 /usr/local/bin/nrniv: gid=57 already exists on this process as an output port
+57  near line 0
+57  ko0_k_ion = 2.5
+                ^
+        57 ParallelContext[6].set_gid2node(57, 57)
+MPICH ERROR [Rank 57] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 57 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 57
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 57
+59 /usr/local/bin/nrniv: gid=59 already exists on this process as an output port
+59  near line 0
+59  ko0_k_ion = 2.5
+                ^
+        59 ParallelContext[6].set_gid2node(59, 59)
+MPICH ERROR [Rank 59] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 59 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 59
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 59
+61 /usr/local/bin/nrniv: gid=61 already exists on this process as an output port
+61  near line 0
+61  ko0_k_ion = 2.5
+                ^
+        61 ParallelContext[6].set_gid2node(61, 61)
+MPICH ERROR [Rank 61] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 61 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 61
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 61
+63 /usr/local/bin/nrniv: gid=63 already exists on this process as an output port
+63  near line 0
+63  ko0_k_ion = 2.5
+                ^
+        63 ParallelContext[6].set_gid2node(63, 63)
+MPICH ERROR [Rank 63] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 63 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 63
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 63
+1 /usr/local/bin/nrniv: gid=1 already exists on this process as an output port
+1  near line 0
+1  ko0_k_ion = 2.5
+                ^
+        1 ParallelContext[6].set_gid2node(1, 1)
+MPICH ERROR [Rank 1] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 1 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 1
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 1
+3 /usr/local/bin/nrniv: gid=3 already exists on this process as an output port
+3  near line 0
+3  ko0_k_ion = 2.5
+                ^
+        3 ParallelContext[6].set_gid2node(3, 3)
+MPICH ERROR [Rank 3] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 3 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 3
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 3
+5 /usr/local/bin/nrniv: gid=5 already exists on this process as an output port
+5  near line 0
+5  ko0_k_ion = 2.5
+                ^
+        5 ParallelContext[6].set_gid2node(5, 5)
+MPICH ERROR [Rank 5] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 5 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 5
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 5
+6 /usr/local/bin/nrniv: gid=6 already exists on this process as an output port
+6  near line 0
+6  ko0_k_ion = 2.5
+                ^
+        6 ParallelContext[6].set_gid2node(6, 6)
+MPICH ERROR [Rank 6] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 6 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 6
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 6
+7 /usr/local/bin/nrniv: gid=7 already exists on this process as an output port
+7  near line 0
+7  ko0_k_ion = 2.5
+                ^
+        7 ParallelContext[6].set_gid2node(7, 7)
+MPICH ERROR [Rank 7] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 7 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 7
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 7
+8 /usr/local/bin/nrniv: gid=8 already exists on this process as an output port
+8  near line 0
+8  ko0_k_ion = 2.5
+                ^
+        8 ParallelContext[6].set_gid2node(8, 8)
+MPICH ERROR [Rank 8] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 8
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 8
+10 /usr/local/bin/nrniv: gid=10 already exists on this process as an output port
+10  near line 0
+10  ko0_k_ion = 2.5
+                ^
+        10 ParallelContext[6].set_gid2node(10, 10)
+MPICH ERROR [Rank 10] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 10 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 10
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 10
+12 /usr/local/bin/nrniv: gid=12 already exists on this process as an output port
+12  near line 0
+12  ko0_k_ion = 2.5
+                ^
+        12 ParallelContext[6].set_gid2node(12, 12)
+MPICH ERROR [Rank 12] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 12 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 12
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 12
+14 /usr/local/bin/nrniv: gid=14 already exists on this process as an output port
+14  near line 0
+14  ko0_k_ion = 2.5
+                ^
+        14 ParallelContext[6].set_gid2node(14, 14)
+MPICH ERROR [Rank 14] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 14 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 14
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 14
+16 /usr/local/bin/nrniv: gid=16 already exists on this process as an output port
+16  near line 0
+16  ko0_k_ion = 2.5
+                ^
+        16 ParallelContext[6].set_gid2node(16, 16)
+MPICH ERROR [Rank 16] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 16 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 16
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 16
+18 /usr/local/bin/nrniv: gid=18 already exists on this process as an output port
+18  near line 0
+18  ko0_k_ion = 2.5
+                ^
+        18 ParallelContext[6].set_gid2node(18, 18)
+MPICH ERROR [Rank 18] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 18 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 18
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 18
+19 /usr/local/bin/nrniv: gid=19 already exists on this process as an output port
+19  near line 0
+19  ko0_k_ion = 2.5
+                ^
+        19 ParallelContext[6].set_gid2node(19, 19)
+MPICH ERROR [Rank 19] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 19 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 19
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 19
+20 /usr/local/bin/nrniv: gid=20 already exists on this process as an output port
+20  near line 0
+20  ko0_k_ion = 2.5
+                ^
+        20 ParallelContext[6].set_gid2node(20, 20)
+MPICH ERROR [Rank 20] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 20 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 20
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 20
+21 /usr/local/bin/nrniv: gid=21 already exists on this process as an output port
+21  near line 0
+21  ko0_k_ion = 2.5
+                ^
+        21 ParallelContext[6].set_gid2node(21, 21)
+MPICH ERROR [Rank 21] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 21 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 21
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 21
+22 /usr/local/bin/nrniv: gid=22 already exists on this process as an output port
+22  near line 0
+22  ko0_k_ion = 2.5
+                ^
+        22 ParallelContext[6].set_gid2node(22, 22)
+MPICH ERROR [Rank 22] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 22 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 22
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 22
+23 /usr/local/bin/nrniv: gid=23 already exists on this process as an output port
+23  near line 0
+23  ko0_k_ion = 2.5
+                ^
+        23 ParallelContext[6].set_gid2node(23, 23)
+MPICH ERROR [Rank 23] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 23 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 23
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 23
+24 /usr/local/bin/nrniv: gid=24 already exists on this process as an output port
+24  near line 0
+24  ko0_k_ion = 2.5
+                ^
+        24 ParallelContext[6].set_gid2node(24, 24)
+MPICH ERROR [Rank 24] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 24 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 24
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 24
+25 /usr/local/bin/nrniv: gid=25 already exists on this process as an output port
+25  near line 0
+25  ko0_k_ion = 2.5
+                ^
+        25 ParallelContext[6].set_gid2node(25, 25)
+MPICH ERROR [Rank 25] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 25 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 25
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 25
+MPICH ERROR [Rank 26] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 26 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 26
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 26
+27 /usr/local/bin/nrniv: gid=27 already exists on this process as an output port
+27  near line 0
+27  ko0_k_ion = 2.5
+                ^
+        27 ParallelContext[6].set_gid2node(27, 27)
+MPICH ERROR [Rank 27] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 27 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 27
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 27
+29 /usr/local/bin/nrniv: gid=29 already exists on this process as an output port
+29  near line 0
+29  ko0_k_ion = 2.5
+                ^
+        29 ParallelContext[6].set_gid2node(29, 29)
+MPICH ERROR [Rank 29] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 29 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 29
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 29
+30 /usr/local/bin/nrniv: gid=30 already exists on this process as an output port
+30  near line 0
+30  ko0_k_ion = 2.5
+                ^
+        30 ParallelContext[6].set_gid2node(30, 30)
+MPICH ERROR [Rank 30] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 30 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 30
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 30
+31 /usr/local/bin/nrniv: gid=31 already exists on this process as an output port
+31  near line 0
+31  ko0_k_ion = 2.5
+                ^
+        31 ParallelContext[6].set_gid2node(31, 31)
+MPICH ERROR [Rank 31] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 31 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 31
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 31
+33 /usr/local/bin/nrniv: gid=33 already exists on this process as an output port
+33  near line 0
+33  ko0_k_ion = 2.5
+                ^
+        33 ParallelContext[6].set_gid2node(33, 33)
+MPICH ERROR [Rank 33] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 33 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 33
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 33
+34 /usr/local/bin/nrniv: gid=34 already exists on this process as an output port
+34  near line 0
+34  ko0_k_ion = 2.5
+                ^
+        34 ParallelContext[6].set_gid2node(34, 34)
+MPICH ERROR [Rank 34] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 34 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 34
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 34
+35 /usr/local/bin/nrniv: gid=35 already exists on this process as an output port
+35  near line 0
+35  ko0_k_ion = 2.5
+                ^
+        35 ParallelContext[6].set_gid2node(35, 35)
+MPICH ERROR [Rank 35] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 35 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 35
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 35
+37 /usr/local/bin/nrniv: gid=37 already exists on this process as an output port
+37  near line 0
+37  ko0_k_ion = 2.5
+                ^
+        37 ParallelContext[6].set_gid2node(37, 37)
+MPICH ERROR [Rank 37] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 37 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 37
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 37
+39 /usr/local/bin/nrniv: gid=39 already exists on this process as an output port
+39  near line 0
+39  ko0_k_ion = 2.5
+                ^
+        39 ParallelContext[6].set_gid2node(39, 39)
+MPICH ERROR [Rank 39] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 39 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 39
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 39
+42 /usr/local/bin/nrniv: gid=42 already exists on this process as an output port
+42  near line 0
+42  ko0_k_ion = 2.5
+                ^
+        42 ParallelContext[6].set_gid2node(42, 42)
+MPICH ERROR [Rank 42] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 42 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 42
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 42
+MPICH ERROR [Rank 47] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 47 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 47
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 47
+51 /usr/local/bin/nrniv: gid=51 already exists on this process as an output port
+51  near line 0
+51  ko0_k_ion = 2.5
+                ^
+        51 ParallelContext[6].set_gid2node(51, 51)
+MPICH ERROR [Rank 51] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 51 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 51
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 51
+17 /usr/local/bin/nrniv: gid=17 already exists on this process as an output port
+17  near line 0
+17  ko0_k_ion = 2.5
+                ^
+        17 ParallelContext[6].set_gid2node(17, 17)
+MPICH ERROR [Rank 17] [job id 7831678.0] [Wed Apr 19 23:42:51 2023] [nid004459] - Abort(-1) (rank 17 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 17
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 17
+srun: error: nid004459: tasks 1-63: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=7831678.0
+slurmstepd: error: *** STEP 7831678.0 ON nid004459 CANCELLED AT 2023-04-20T06:42:52 ***
+srun: error: nid004459: task 0: Terminated
+srun: Force Terminated StepId=7831678.0

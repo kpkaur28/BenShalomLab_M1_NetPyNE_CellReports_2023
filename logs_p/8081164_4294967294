@@ -1,0 +1,230 @@
+/global/homes/k/kpkaur28/Project/BenShalomLab/BenShalomLab_M1_NetPyNE_CellReports_2023/sim
+Mod files: "mod/mod/ar_traub.mod" "mod/mod/cadad.mod" "mod/mod/cadyn.mod" "mod/mod/cagk.mod" "mod/mod/cal_mh.mod" "mod/mod/cal_mig.mod" "mod/mod/cancr.mod" "mod/mod/canin.mod" "mod/mod/can_mig.mod" "mod/mod/catcb.mod" "mod/mod/cat_mig.mod" "mod/mod/cat_traub.mod" "mod/mod/ch_CavL.mod" "mod/mod/ch_CavN.mod" "mod/mod/ch_KCaS.mod" "mod/mod/ch_Kdrfastngf.mod" "mod/mod/ch_KvAngf.mod" "mod/mod/ch_KvCaB.mod" "mod/mod/ch_leak.mod" "mod/mod/ch_Navngf.mod" "mod/mod/dipole.mod" "mod/mod/dipole_pp.mod" "mod/mod/gabab.mod" "mod/mod/h_BS.mod" "mod/mod/HCN1.mod" "mod/mod/h_harnett.mod" "mod/mod/hin.mod" "mod/mod/h_kole.mod" "mod/mod/h_migliore.mod" "mod/mod/ican_sidi.mod" "mod/mod/iccr.mod" "mod/mod/IC.mod" "mod/mod/iconc_Ca.mod" "mod/mod/ikscr.mod" "mod/mod/IKsin.mod" "mod/mod/kap_BS.mod" "mod/mod/kapcb.mod" "mod/mod/kapin.mod" "mod/mod/kBK.mod" "mod/mod/kca.mod" "mod/mod/kctin.mod" "mod/mod/kdmc_BS.mod" "mod/mod/kdr_BS.mod" "mod/mod/kdrcr.mod" "mod/mod/kdrin.mod" "mod/mod/km.mod" "mod/mod/kv.mod" "mod/mod/MyExp2SynBB.mod" "mod/mod/my_exp2syn.mod" "mod/mod/MyExp2SynNMDABB.mod" "mod/mod/nafcr.mod" "mod/mod/nafx.mod" "mod/mod/nap_sidi.mod" "mod/mod/nax_BS.mod" "mod/mod/naz.mod" "mod/mod/Nca.mod" "mod/mod/savedist.mod" "mod/mod/vecstim.mod"
+
+ -> [32mCompiling[0m mod_func.cpp
+ => [32mLINKING[0m shared library ./libnrnmech.so
+Successfully created x86_64/special
+NEURON -- VERSION 8.2.2 HEAD (93d41fafd) 2022-12-15
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mod/ar_traub.mod" "mod/cadad.mod" "mod/cadyn.mod" "mod/cagk.mod" "mod/cal_mh.mod" "mod/cal_mig.mod" "mod/cancr.mod" "mod/canin.mod" "mod/can_mig.mod" "mod/catcb.mod" "mod/cat_mig.mod" "mod/cat_traub.mod" "mod/ch_CavL.mod" "mod/ch_CavN.mod" "mod/ch_KCaS.mod" "mod/ch_Kdrfastngf.mod" "mod/ch_KvAngf.mod" "mod/ch_KvCaB.mod" "mod/ch_leak.mod" "mod/ch_Navngf.mod" "mod/dipole.mod" "mod/dipole_pp.mod" "mod/gabab.mod" "mod/h_BS.mod" "mod/HCN1.mod" "mod/h_harnett.mod" "mod/hin.mod" "mod/h_kole.mod" "mod/h_migliore.mod" "mod/ican_sidi.mod" "mod/iccr.mod" "mod/IC.mod" "mod/iconc_Ca.mod" "mod/ikscr.mod" "mod/IKsin.mod" "mod/kap_BS.mod" "mod/kapcb.mod" "mod/kapin.mod" "mod/kBK.mod" "mod/kca.mod" "mod/kctin.mod" "mod/kdmc_BS.mod" "mod/kdr_BS.mod" "mod/kdrcr.mod" "mod/kdrin.mod" "mod/km.mod" "mod/kv.mod" "mod/MyExp2SynBB.mod" "mod/my_exp2syn.mod" "mod/MyExp2SynNMDABB.mod" "mod/nafcr.mod" "mod/nafx.mod" "mod/nap_sidi.mod" "mod/nax_BS.mod" "mod/naz.mod" "mod/Nca.mod" "mod/savedist.mod" "mod/vecstim.mod"
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+numprocs=64
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+	0 
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Importing simConfig from cfg.py
+Importing netParams from netParams.py
+
+Start time:  2023-04-23 16:41:59.840054
+
+Creating network of 22 cell populations on 64 hosts...
+  Number of cells on node 0: 267 
+  Done; cell creation time = 2.11 s.
+Making connections...
+  Distributing synapses based on subcellular connectivity rules...
+  Number of connections on node 0: 136813 
+  Number of synaptic contacts on node 0: 550197 
+  Done; cell connection time = 157.45 s.
+  Number of stims on node 0: 0 
+  Done; cell stims creation time = 0.00 s.
+Recording 267 traces of 1 types on node 0
+0.0s
+
+Running with interval func using NEURON for 1000.0 ms...
+0.1s
+0.2s
+0.3s
+0.4s
+0.5s
+0.6s
+0.7s
+0.8s
+0.9s
+1.0s
+   Modifying PT hd gbar by a factor of 0.750000
+  Done; run time = 6299.93 s; real-time ratio: 0.00.
+
+Saving an output file for each node in: ../data/v56_manualTune-p5/v56_tune3_node_data
+  Saving output as: v56_tune3_node_0.pkl ... 
+  Done; saving time = 15.30 s.
+
+Searching for .pkl node files in ../data/v56_manualTune-p5/v56_tune3_node_data ...
+
+Gathering data from files for simulation: v56_tune3 ...
+  Merging data file: v56_tune3_node_0.pkl
+  Merging data file: v56_tune3_node_1.pkl
+  Merging data file: v56_tune3_node_10.pkl
+  Merging data file: v56_tune3_node_11.pkl
+  Merging data file: v56_tune3_node_12.pkl
+  Merging data file: v56_tune3_node_13.pkl
+  Merging data file: v56_tune3_node_14.pkl
+  Merging data file: v56_tune3_node_15.pkl
+  Merging data file: v56_tune3_node_16.pkl
+  Merging data file: v56_tune3_node_17.pkl
+  Merging data file: v56_tune3_node_18.pkl
+  Merging data file: v56_tune3_node_19.pkl
+  Merging data file: v56_tune3_node_2.pkl
+  Merging data file: v56_tune3_node_20.pkl
+  Merging data file: v56_tune3_node_21.pkl
+  Merging data file: v56_tune3_node_22.pkl
+  Merging data file: v56_tune3_node_23.pkl
+  Merging data file: v56_tune3_node_24.pkl
+  Merging data file: v56_tune3_node_25.pkl
+  Merging data file: v56_tune3_node_26.pkl
+  Merging data file: v56_tune3_node_27.pkl
+  Merging data file: v56_tune3_node_28.pkl
+  Merging data file: v56_tune3_node_29.pkl
+  Merging data file: v56_tune3_node_3.pkl
+  Merging data file: v56_tune3_node_30.pkl
+  Merging data file: v56_tune3_node_31.pkl
+  Merging data file: v56_tune3_node_32.pkl
+  Merging data file: v56_tune3_node_33.pkl
+  Merging data file: v56_tune3_node_34.pkl
+  Merging data file: v56_tune3_node_35.pkl
+  Merging data file: v56_tune3_node_36.pkl
+  Merging data file: v56_tune3_node_37.pkl
+  Merging data file: v56_tune3_node_38.pkl
+  Merging data file: v56_tune3_node_39.pkl
+  Merging data file: v56_tune3_node_4.pkl
+  Merging data file: v56_tune3_node_40.pkl
+  Merging data file: v56_tune3_node_41.pkl
+  Merging data file: v56_tune3_node_42.pkl
+  Merging data file: v56_tune3_node_43.pkl
+  Merging data file: v56_tune3_node_44.pkl
+  Merging data file: v56_tune3_node_45.pkl
+  Merging data file: v56_tune3_node_46.pkl
+  Merging data file: v56_tune3_node_47.pkl
+  Merging data file: v56_tune3_node_48.pkl
+  Merging data file: v56_tune3_node_49.pkl
+  Merging data file: v56_tune3_node_5.pkl
+  Merging data file: v56_tune3_node_50.pkl
+  Merging data file: v56_tune3_node_51.pkl
+  Merging data file: v56_tune3_node_52.pkl
+  Merging data file: v56_tune3_node_53.pkl
+  Merging data file: v56_tune3_node_54.pkl
+  Merging data file: v56_tune3_node_55.pkl
+  Merging data file: v56_tune3_node_56.pkl
+  Merging data file: v56_tune3_node_57.pkl
+  Merging data file: v56_tune3_node_58.pkl
+  Merging data file: v56_tune3_node_59.pkl
+  Merging data file: v56_tune3_node_6.pkl
+  Merging data file: v56_tune3_node_60.pkl
+  Merging data file: v56_tune3_node_61.pkl
+  Merging data file: v56_tune3_node_62.pkl
+  Merging data file: v56_tune3_node_63.pkl
+  Merging data file: v56_tune3_node_7.pkl
+  Merging data file: v56_tune3_node_8.pkl
+  Merging data file: v56_tune3_node_9.pkl
+  Done; gather time = 464.70 s.
+
+Analyzing...
+  Cells: 17073
+  Connections: 8803426 (515.63 per cell)
+  Synaptic contacts: 35930974 (2104.55 per cell)
+  Spikes: 47184 (2.76 Hz)
+  Simulated time: 1.0 s; 64 workers
+  Run time: 6299.93 s
+   IT2 : 0.000 Hz
+   SOM2 : 0.000 Hz
+   PV2 : 0.000 Hz
+   IT4 : 0.000 Hz
+   IT5A : 0.000 Hz
+   SOM5A : 0.000 Hz
+   PV5A : 0.000 Hz
+   IT5B : 0.000 Hz
+   PT5B : 0.000 Hz
+   SOM5B : 0.000 Hz
+   PV5B : 0.000 Hz
+   IT6 : 0.000 Hz
+   CT6 : 0.000 Hz
+   SOM6 : 0.000 Hz
+   PV6 : 0.000 Hz
+   TPO : 0.000 Hz
+   TVL : 0.000 Hz
+   S1 : 0.000 Hz
+   S2 : 0.000 Hz
+   cM1 : 0.000 Hz
+   M2 : 0.000 Hz
+   OC : 0.000 Hz
+Saving output as ../data/v56_manualTune-p5/v56_tune3_data.pkl ... 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/netpyne/sim/save.py", line 204, in saveData
+    pickle.dump(dataSave, fileObj)
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "init.py", line 87, in <module>
+    sim.saveData()                    			# save params, cell info and sim output to file (pickle,mat,txt,etc)#
+  File "/usr/local/lib/python3.10/dist-packages/netpyne/sim/save.py", line 203, in saveData
+    with open(path, 'wb') as fileObj:
+OSError: [Errno 122] Disk quota exceeded
+slurmstepd: error: *** STEP 8081164.0 ON nid004334 CANCELLED AT 2023-04-24T05:42:03 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 8081164 ON nid004334 CANCELLED AT 2023-04-24T05:42:03 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
